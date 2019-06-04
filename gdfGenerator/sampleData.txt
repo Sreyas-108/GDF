@@ -1,4 +1,4 @@
-Ashish|teaches|Yashdeep
+Ashish|teaches|Yashdeep|tea||stu
 Ashish|teaches|Suyash
 Ashish|teaches|Abhinava
 Ashish|teaches|Anirudh
@@ -260,7 +260,7 @@ Raman|teaches|Sahil
 Raman|teaches|Sargun
 Raman|teaches|Swadesh
 Raman|teaches|Kshitij
-Kannan|teaches|Yashdeep
+Kannan|teaches|Yashdeep|Strict||
 Kannan|teaches|Vipin
 Kannan|teaches|Ayush
 Kannan|teaches|Kavi

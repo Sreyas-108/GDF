@@ -4,13 +4,8 @@ function xtoGDF {
     filename=$1
     
     outname=''
-
-    array=()
-    sn=''
-    pn=''
-    on=''
+    
     udi=''
-    toWrite=''
     
     #code to extract the primary name of the file
     IFS='.'
@@ -26,24 +21,21 @@ function xtoGDF {
         array=()
         uidArr=()
 
-        #code to create 7 column format
+        ############ Code to create 7 column format ##############
         read -ra array <<< "$line"
-        sn=${array[0]}
-        pn=${array[1]}
-        on=${array[2]}
-        
-        cum="$sn $pn $on"
+
+
+        cum="${array[0]} ${array[1]} ${array[2]}"
         uid=$(echo "$cum" | md5sum)
 
         IFS=' '
         read -ra uidArr <<< "$uid"
         IFS='|'
-        
+
         uid=${uidArr[0]}
 
-        #code to append data to GDF file
-        toWrite="$uid|${array[0]}||${array[1]}||${array[2]}|"
-       
+        ############# Code to append data to GDF file #############
+        toWrite="$uid|${array[0]}|${array[3]}|${array[1]}|${array[4]}|${array[2]}|${array[5]}"
         if [[ $count -eq 0 ]]
         then
             echo "$toWrite" > "$outname"
