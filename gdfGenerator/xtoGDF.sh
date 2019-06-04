@@ -24,7 +24,6 @@ function xtoGDF {
         ############ Code to create 7 column format ##############
         read -ra array <<< "$line"
 
-
         cum="${array[0]} ${array[1]} ${array[2]}"
         uid=$(echo "$cum" | md5sum)
 
