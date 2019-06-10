@@ -2,7 +2,7 @@
 
 function xtoGDF {
     filename=$1
-    
+
     outname=''
     
     udi=''
@@ -45,6 +45,35 @@ function xtoGDF {
 
         let count=$count+1
     done < "$1"
+
+    IFS='|'
+    let count=0
+    while IFS= read -r line
+    do
+        read -ra array <<< "$line"
+        
+        cum="${array[0]} ${array[1]} ${array[2]}"
+        uid=$(echo "$cum" | md5sum)
+        id=$(echo "${array[0]}" | md5sum)
+
+        IFS=' '
+        read -ra uidArr <<< "$uid"
+        read -ra idArr <<< "$id"
+        IFS='|'
+
+        uid=${uidArr[0]}
+        id=${idArr[0]}
+
+        toWrite="$uid|${array[0]}|$id|${array[1]}||${array[2]}"
+
+        if [[ $count -eq 0 ]]
+        then
+            echo "$toWrite" > "metadata.gdf"
+        else
+            echo "$toWrite" >> "metadata.gdf"
+        fi
+        let count=$count+1
+    done < "$2"
 
     #set the IFS back to default
     IFS=' '
