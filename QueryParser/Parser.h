@@ -1,3 +1,5 @@
+#include<stdio.h>
+#include<stdlib.h>
 // For '?', pass a NULL pointer
 
 // Query is of the format <any,any,any> 
