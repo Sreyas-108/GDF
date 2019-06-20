@@ -12,7 +12,7 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 		
 		if(subject!=NULL)
 		{
-				int len=strlen(subject);
+				/*int len=strlen(subject);
 				subject=(char *)realloc(subject, sizeof(char)*(len+4));	//reallocate memory for subject to be able to append .gdf
 
 				subject[len]='.';
@@ -20,15 +20,15 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 				subject[len+2]='d';
 				subject[len+3]='f';
 				subject[len+4]='\0';					
-				
-				FILE *fp=fopen(subject,"r");				//Open the file in read mode
+				*/
+				FILE *fp=fopen("resource.gdf","r");				//Open the file in read mode
 
 				if(fp==NULL)							//If file opening fails, return
 						return;
 
 				int n1,n2,n3;
 
-				fscanf(fp,"#%d,%d,%d",&n1,&n2,&n3);		//Get the first line
+				fscanf(fp,"# %d %d %d",&n1,&n2,&n3);		//Get the first line
 
 
 				triples=(char **)malloc(sizeof(char *)*n1);		
@@ -37,37 +37,6 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 				fscanf(fp,"%s",arr);	//eat up the metadata URI line
 
 				fscanf(fp,"%s",arr);	//eat up the line @subject
-
-				/*if(predicate==NULL && object==NULL)
-				{
-						while(n1--)
-						{
-							triples[j]=(char *)malloc(sizeof(char)*10);
-							size2=10;
-							char ch;
-							bool stop=false;
-							while(!stop)
-							{
-									k=0;
-									fscanf(fp,"%c",&ch);
-									if(ch!='\n')
-									{
-											if(reallCount2>size2)
-											{
-													size2*=2;
-													triples[j]=(char *)realloc(triples[j],size2);			
-											}
-											triples[j][k]=ch;
-											k++;
-									}
-									else
-											stop=true;
-							}
-							triples[j][k]='\0';
-							j++;
-						}
-						triples[j]=NULL;
-				}*/
 
 				//The 3 subcases : (NULL,NULL) (Not NULL, NULL) (NULL, Not NULL)
 				if((predicate!=NULL && object==NULL) || (predicate==NULL && object!=NULL) || (predicate==NULL && object==NULL))
