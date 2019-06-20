@@ -11,12 +11,13 @@ int main(int argc, char ** argv)
 		
 		triples=parseQuery(query);
 
-		for(int i=0;i<3;i++)
+		/*for(int i=0;i<3;i++)
 		{
 				if(triples[i]!=NULL)
 					printf("%s\n",triples[i]);
 				else
 					printf("NULL\n");
-		}
+		}*/
+		char ** xyz=solveSimpleSelectQueryCase1(triples[0], triples[1], triples[2]);
 		return 0;
 }
