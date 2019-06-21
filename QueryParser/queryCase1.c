@@ -104,7 +104,7 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 					strcpy(spl[i],strsep(&readWhole,"|"));
 				}
 	
-				if(strcmp(subject,spl[1])==0 && strcmp(spl[6],object)==0 && strcmp(spl[4],predicate)==0)
+				if(strcmp(subject,spl[1])==0 && strcmp(spl[5],object)==0 && strcmp(spl[3],predicate)==0)
 				{
 					found=true;
 					
