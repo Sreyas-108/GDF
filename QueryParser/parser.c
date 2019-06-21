@@ -1,4 +1,4 @@
-#include "Parser.h"
+#include "selectQuery.h"
 
 char ** parseQuery(char * query)
 {

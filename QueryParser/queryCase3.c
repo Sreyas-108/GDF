@@ -1,7 +1,4 @@
-#include "Parser.h"
-#define MAX 512
-typedef enum tri {SUB=0, PRED=1, OBJ=2} tri;
-
+#include "selectQuery.h"
 
 //Case 3
 //<?,?,?>
