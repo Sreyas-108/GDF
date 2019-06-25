@@ -14,8 +14,9 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 	{
 		char * name;
 		int len=strlen(subject);
-		name=(char *)malloc(sizeof(char)*(len+4));	//reallocate memory for subject to be able to append .gdf
+		name=(char *)malloc(sizeof(char)*(len+20));	//reallocate memory for subject to be able to append .gdf
 
+		strcat(name,"/GDF/res/");
 		strcat(name,subject);
 		strcat(name,".gdf\0");
 
@@ -26,7 +27,7 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 
 		int n1,n2,n3;
 
-		fscanf(fp,"# %d %d %d\n",&n1,&n2,&n3);		//Get the first line
+		fscanf(fp,"%d %d %d\n",&n1,&n2,&n3);		//Get the first line
 
 
 		triples=(char **)malloc(sizeof(char *)*n1);		
@@ -57,7 +58,7 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 					strcpy(spl[i],strsep(&readWhole,"|"));
 				}
 
-				if((object!=NULL && strcmp(spl[6],object)==0) || (predicate!=NULL && strcmp(spl[4],predicate)==0) || (predicate==NULL && object==NULL)) 
+				if((object!=NULL && strcmp(spl[5],object)==0) || (predicate!=NULL && strcmp(spl[3],predicate)==0) || (predicate==NULL && object==NULL)) 
 				{
 
 					int tmp=0;
@@ -65,7 +66,7 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 					{
 						tmp+=strlen(spl[i]);
 					}
-					tmp+=7;
+					tmp+=8;
 
 					triples[j]=(char *)malloc(sizeof(char)*tmp);
 
@@ -73,8 +74,9 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 					{
 						strcat(triples[j],spl[i]);
 						if(i!=6)
-							strcat(triples[j],"|\0");
+							strcat(triples[j],"|");
 					}
+					strcat(triples[j],"\0");
 					j++;
 				}
 			}

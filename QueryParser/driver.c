@@ -18,7 +18,7 @@ int main(int argc, char ** argv)
 				else
 					printf("NULL\n");
 		}
-		char ** xyz=solveSimpleSelectQueryCase2(triples[0], triples[1], triples[2]);
+		char ** xyz=solveSimpleSelectQueryCase3(triples[0], triples[1], triples[2]);
 
 		int j=0;
 		while(xyz[j]!=NULL)

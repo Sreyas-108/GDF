@@ -4,10 +4,7 @@ char ** solveSimpleSelectQueryCase2(char* subject,char* predicate,char* object)
 {
 	//Case 2
 	//<?,?,Resource> and <?,Resource,?>
-
-	
 	//Subcase 1
-
 	char ** triples;
 
 	int j=0;
@@ -37,7 +34,6 @@ char ** solveSimpleSelectQueryCase2(char* subject,char* predicate,char* object)
 			fp=fopen(name,"r");
 		}
 		fscanf(fp,"%d %d %d\n",&n1,&n2,&n3);
-		triples=(char **)malloc(sizeof(char *)*n3);
 		char ignore[100];
 		fscanf(fp,"%[^\n]\n",ignore);		//ignore the metadata line
 		fscanf(fp,"%[^\n]\n",ignore);		//ignore the @Subject line
@@ -64,15 +60,22 @@ char ** solveSimpleSelectQueryCase2(char* subject,char* predicate,char* object)
 			n=n2;
 		}
 
+		triples=(char **)malloc(sizeof(char *)*n);
+		printf("%d\n",n);
 		while(n--)
 		{
+			//fp_1=NULL;
 			fscanf(fp,"%s : %[^\n]\n",uri,uid);
 			fp_1=fopen(uri,"r");
 			searchAndInsert(fp_1,uid,triples,j);
 			j++;
-			fclose(fp_1);
+			//printf("%p\n",fp_1);
+			//if(fp_1!=NULL)
+				fclose(fp_1);
+			//fp_1=NULL;
 		}
 	}
+	triples[j]=NULL;
 	return triples;
 }
 
@@ -87,7 +90,7 @@ void searchAndInsert(FILE * fp, char  key[], char ** triples, int index)
 	fscanf(fp,"%[^\n]\n",ignore);		//eat the metadata line
 	fscanf(fp,"%[^\n]\n",ignore);		//eat the @Subject line
 
-	char * spl[7];
+	char *spl[7];
 	while(n1--)
 	{
 		char * readWhole=(char *)malloc(sizeof(char)*7*MAX);
@@ -110,26 +113,28 @@ void searchAndInsert(FILE * fp, char  key[], char ** triples, int index)
 			{
 				tmp+=strlen(spl[i]);
 			}
-			tmp+=7;
+			tmp+=8;
 
 			triples[index]=(char *)malloc(sizeof(char)*tmp);
 			for(int i=0;i<7;i++)
 			{
 				strcat(triples[index],spl[i]);
-				strcat(triples[index],"|\0");
+				if(i!=6)
+					strcat(triples[index],"|");
 			}	
-			
-			for(int i=0;i<7;i++)
+			strcat(triples[index],"\0");
+			//printf("%s\n",triples[index]);
+			/*for(int i=0;i<7;i++)
 			{
 				free(spl[i]);
-			}
+			}*/
 
 			return;	
 		}
 
-		for(int i=0;i<7;i++)
+		/*for(int i=0;i<7;i++)
 		{
 			free(spl[i]);
-		}
+		}*/
 	}
 }
