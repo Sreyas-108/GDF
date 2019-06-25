@@ -7,31 +7,30 @@ char ** solveSimpleSelectQueryCase3(char* subject,char* predicate,char* object)
 {
 
 	FILE * fp=fopen("/dist.gdf","r");
-	printf("%p\n",fp);
+	//printf("%p\n",fp);
 
 	char ** triples;
 	int counter=0;
-	int size=2;
+	int size=1;
 	int j=0;
 
 	triples=(char **)malloc(sizeof(char *)*size);
-	
 
 	if(subject==NULL && predicate==NULL && object==NULL)
 	{
 		char * readWhole=(char *)malloc(sizeof(char)*MAX*7);
-		char * spl[7];
-		for(int i=0;i<7;i++)
-		{
-			spl[i]=(char *)malloc(sizeof(char)*MAX);
-		}
 
 		while(fscanf(fp,"%[^\n]\n",readWhole)!=EOF)
 		{
+			char *spl[7];
+			for(int i=0;i<7;i++)
+			{
+				spl[i]=(char *)malloc(sizeof(char)*MAX);
+			}
 			char * copy=(char *)malloc(sizeof(char)*7*MAX);
 			strcpy(copy,readWhole);
 			
-			printf("%ld\t",strlen(copy));
+			//printf("%d\t",strlen(copy));
 			
 			for(int i=0;i<7;i++)
 			{
@@ -44,7 +43,9 @@ char ** solveSimpleSelectQueryCase3(char* subject,char* predicate,char* object)
 				tmp+=strlen(spl[i]);
 			}
 			tmp+=7;
-			printf("%d\n",tmp);
+			
+			//printf("%d\n",tmp);
+			
 			if(counter==size)
 			{
 				size*=2;
@@ -52,6 +53,7 @@ char ** solveSimpleSelectQueryCase3(char* subject,char* predicate,char* object)
 			}
 			
 			triples[j]=(char *)malloc(sizeof(char)*tmp);
+			strcpy(triples[j],"");
 
 			for(int i=0;i<7;i++)
 			{
@@ -60,8 +62,15 @@ char ** solveSimpleSelectQueryCase3(char* subject,char* predicate,char* object)
 					strcat(triples[j],"|");
 			}	
 			strcat(triples[j],"\0");
+
+			//printf("%s\n",triples[j]);
 			counter++;
 			j++;
+
+			for(int i=0;i<7;i++)
+			{
+				free(spl[i]);
+			}
 		}
 	}
 
