@@ -19,7 +19,7 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 		strcat(name,subject);
 		strcat(name,".gdf\0");
 
-		FILE *fp=fopen("The_Two_Towers.gdf","r");				//Open the file in read mode
+		FILE *fp=fopen(name,"r");				//Open the file in read mode
 
 		if(fp==NULL)							//If file opening fails, return
 			return;

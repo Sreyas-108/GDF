@@ -40,7 +40,8 @@ function xtoGDF {
 
         ###The output of md5sum is hash value and some other information, both separated by space.
         ###Hence we will delimit the uid by ' '
-        read -ra uidArr <<< "$uid"
+        IFS=' '
+	read -ra uidArr <<< "$uid"
         IFS='|'
 
         uid=${uidArr[0]}
