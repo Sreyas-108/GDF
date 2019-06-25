@@ -7,6 +7,11 @@ char ** solveSimpleSelectQueryCase3(char* subject,char* predicate,char* object)
 {
 
 	FILE * fp=fopen("/dist.gdf","r");
+	if(fp==NULL)
+	{
+		printf("ERROR!! The dist.gdf file is missing");
+		exit(0);
+	}
 	//printf("%p\n",fp);
 
 	char ** triples;

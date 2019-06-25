@@ -33,6 +33,12 @@ char ** solveSimpleSelectQueryCase2(char* subject,char* predicate,char* object)
 			strcat(name,".gdf\0");
 			fp=fopen(name,"r");
 		}
+
+		if(fp==NULL)
+		{
+			printf("ERROR!! Resource file could not be found");
+			exit(0);
+		}
 		fscanf(fp,"%d %d %d\n",&n1,&n2,&n3);
 		char ignore[100];
 		fscanf(fp,"%[^\n]\n",ignore);		//ignore the metadata line
@@ -66,6 +72,12 @@ char ** solveSimpleSelectQueryCase2(char* subject,char* predicate,char* object)
 		{
 			fscanf(fp,"%s : %[^\n]\n",uri,uid);
 			fp_1=fopen(uri,"r");
+
+			if(fp_1==NULL)
+			{
+				printf("ERROR!! Required resource files are missing, try running init command again");
+				exit(0);
+			}
 			searchAndInsert(fp_1,uid,triples,j,0,"");
 			j++;
 			fclose(fp_1);
@@ -112,6 +124,12 @@ char ** solveSimpleSelectQueryCase2(char* subject,char* predicate,char* object)
 			fscanf(fp,"%s : %[^\n]\n",uri,uid);
 			fp_1=fopen(uri,"r");
 			searchAndInsert(fp_1, uid, triples,j,1,object);
+
+			if(fp_1==NULL)
+			{
+				printf("ERROR!! Required resource files are missing, try running init command again");
+				exit(0);
+			}
 			fclose(fp_1);
 			if(triples[j]!=NULL)
 				j++;
@@ -150,7 +168,7 @@ void searchAndInsert(FILE * fp, char  key[], char ** triples, int index, int fla
 
 		if(strcmp(spl[0],key)==0)
 		{
-			if(flag==0 || (flag==1 && strcmp(spl[5],flagCmp)==0))
+			if(flag==0 || (flag==1 && strcmp(lower(spl[5]),lower(flagCmp))==0))
 			{
 				int tmp=0;
 				for(int i=0;i<7;i++)

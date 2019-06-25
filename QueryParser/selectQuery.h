@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include<ctype.h>
 
 #define MAX 512
 
@@ -12,7 +13,7 @@ typedef enum tri {SUB=0, PRED=1, OBJ=2} tri;
 // Query is of the format <any,any,any> 
 // Returns an array containing three pointers in the order subject,predicate,object
 char **parseQuery(char *query); 
-
+char * lower(char * str);
 // Returns an array of triplets of size n*3
 //char **solveSimpleSelectQuery(char* subject,char* predicate,char* object);
 char **solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object);

@@ -23,7 +23,10 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 		FILE *fp=fopen(name,"r");				//Open the file in read mode
 
 		if(fp==NULL)							//If file opening fails, return
-			return;
+		{
+			printf("ERROR!! Resource file could not be found");
+			exit(0);
+		}
 
 		int n1,n2,n3;
 
@@ -58,7 +61,7 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 					strcpy(spl[i],strsep(&readWhole,"|"));
 				}
 
-				if((object!=NULL && strcmp(spl[5],object)==0) || (predicate!=NULL && strcmp(spl[3],predicate)==0) || (predicate==NULL && object==NULL)) 
+				if((object!=NULL && strcmp(lower(spl[5]),lower(object))==0) || (predicate!=NULL && strcmp(lower(spl[3]),lower(predicate))==0) || (predicate==NULL && object==NULL)) 
 				{
 
 					int tmp=0;
@@ -106,7 +109,7 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 					strcpy(spl[i],strsep(&readWhole,"|"));
 				}
 	
-				if(strcmp(subject,spl[1])==0 && strcmp(spl[5],object)==0 && strcmp(spl[3],predicate)==0)
+				if(strcmp(lower(subject),lower(spl[1]))==0 && strcmp(lower(spl[5]),lower(object))==0 && strcmp(lower(spl[3]),lower(predicate))==0)
 				{
 					found=true;
 					
@@ -138,7 +141,3 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 		return;
 	return triples;
 }
-
-
-
-
