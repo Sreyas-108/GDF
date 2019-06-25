@@ -2,29 +2,29 @@
 
 int main(int argc, char ** argv)
 {
-		if(argc!=2)
-				exit(0);
+	if(argc!=2)
+		exit(0);
 
-		char ** triples;
+	char ** triples;
 
-		char * query=argv[1];
-		
-		triples=parseQuery(query);
+	char * inp=argv[1];
 
-		for(int i=0;i<3;i++)
-		{
-				if(triples[i]!=NULL)
-					printf("%s\n",triples[i]);
-				else
-					printf("NULL\n");
-		}
-		char ** xyz=solveSimpleSelectQueryCase2(triples[0], triples[1], triples[2]);
+	triples=parseQuery(inp);
 
-		int j=0;
-		while(xyz[j]!=NULL)
-		{
-			printf("%s\n",xyz[j]);
-			j++;
-		}
-		return 0;
+	for(int i=0;i<3;i++)
+	{
+		if(triples[i]!=NULL)
+			printf("%s\n",triples[i]);
+		else
+			printf("NULL\n");
+	}
+	char ** xyz=query(triples[0],triples[1],triples[2]);
+
+	int j=0;
+	while(xyz[j]!=NULL)
+	{
+		printf("%s\n",xyz[j]);
+		j++;
+	}
+	return 0;
 }

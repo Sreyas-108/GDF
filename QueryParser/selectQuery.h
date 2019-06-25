@@ -18,5 +18,5 @@ char **parseQuery(char *query);
 char **solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object);
 char **solveSimpleSelectQueryCase2(char* subject,char* predicate,char* object);
 char **solveSimpleSelectQueryCase3(char* subject,char* predicate,char* object);
-char **solveSimpleSelectQueryCase4(char* subject,char* predicate,char* object);
+char **query(char* subject, char* predicate, char* object);
 void searchAndInsert(FILE * fp, char * key, char ** triples, int index, int flag, char flagCmp[]);
