@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- link rel="stylesheet" type="css" href="~/GDF/rendererFront/style.css"> -->
+		<title> Renderer </title>
+<style>
+.header {
+	overflow: hidden;
+	background-color: #333;
+	width=100%;
+	margin-bottom: 10px;
+}
+
+.columns {
+	float: left;
+	width: 33.33%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#i01 {
+	color: green;
+	text-align: center;
+}
+
+#i02 {
+	font-family:"Courier";
+}
+</style>
+	</head>
+
+	<body>
+		<div class="header" id="i02"> <h1 id="i01"> Graph Data Digest Document Format </h1> </div>
+		<div class="row">
+		<form method="get">
+			<!--<fieldset>
+			<legend id="i02"> User's Panel </legend> -->
+			<div class="columns">
+				<span id="i02"> Subject: </span> <input type="text" name="Subject" placeholder="Subject">
+					<br>
+			</div>
+			<div class="columns">
+				<span id="i02"> Predicate: </span> <input type="text" name="Predicate" placeholder="Predicate">
+					<br>
+			</div>
+			<div class="columns">
+				<span id="i02"> Object: </span> <input type="text" name="Object" placeholder="Object"> 
+					<br> </span>
+			</div>
+			<!--
+				<br>
+				<input type="submit" value="Query">
+				<input type="submit" value="Create">
+				<input type="submit" value="Delete">
+				 </fieldset> -->
+		</form>
+		</div>
+	</body>
+
+</html>
