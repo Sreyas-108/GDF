@@ -56,7 +56,7 @@ function getDOTfromGDF(filename) {
           lines[i] = lines[i].trim()
           var words=lines[i].split('|')
           //Add node to nodes if not already added along with label
-          nodes.push(getLabel(words[1]                                                                ));
+          nodes.push(getLabel(words[1]));
           //nodes.push(getLabel(words[3]));
           nodes.push(getLabel(words[5]));
           //Add edge_description
