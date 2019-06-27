@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- link rel="stylesheet" type="css" href="~/GDF/rendererFront/style.css"> -->
+		<title> Renderer </title>
+<style>
+body {
+	background-color: gray;
+}
+.header {
+	overflow: hidden;
+	background-color: #333;
+	width=100%;
+	margin-bottom: 10px;
+}
+
+.columns {
+	float: left;
+	width: 33.33%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#i01 {
+	color: green;
+	text-align: center;
+}
+
+#i02 {
+	font-family:"Courier";
+}
+
+.shadow {
+	text-shadow: 2px 2px 2px red;
+}
+
+#buttons {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.button-container {
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+}
+
+.footer {
+	float: left;
+	width: 50%;
+}
+
+.block {
+	border: 2px solid green;
+	border-radius: 25px;
+	background-color: #4CAF50;
+	padding: 5px 5px;
+	font-size: 16px;
+	font-family: "courier";
+	cursor: pointer;
+	text-align: center;
+}
+
+.block:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+input[type=text] {
+	margin: 8px 0;
+	padding: 5px 5px 5px 5px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 25px;
+}
+</style>
+	</head>
+
+	<body>
+		<div class="header shadow" id="i02"> <h1 id="i01"> Graph Data Digest Document Format </h1> </div>
+		<form method="get">
+		<div class="row">
+			<div class="columns">
+				<span id="i02"> Subject: </span> <input type="text" size="50" autofocus name="Subject" placeholder="Subject" autocomplete="on">
+				<br>
+			</div>
+			<div class="columns">
+				<span id="i02"> Predicate: </span> <input type="text" size="50" autofocus name="Predicate" placeholder="Predicate" autocomplete="on">
+				<br>
+			</div>
+			<div class="columns">
+				<span id="i02"> Object: </span> <input type="text" size="50" autofocus name="Object" placeholder="Object" autocomplete="on"> 
+				<br>
+			</div>
+		</div>
+		<br><br>
+		<div class="button-container">
+		<div class="button">
+			<input type="submit" class="block" id="buttons" value="Query">
+			<input type="submit" class="block" id="buttons" value="Create">
+			<input type="submit" class="block" id="buttons" value="Delete">
+		</div>
+		</div>
+		</form>
+	</body>
+
+</html>
