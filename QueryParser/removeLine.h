@@ -1,3 +1,5 @@
 #include<stdio.h>
-
-void removeLine(char* filename, File* ptr);
+#include<string.h>
+#include<stdlib.h>
+void removeLine(char* filename, FILE* ptr);
+char * md5sum(char * arr);
