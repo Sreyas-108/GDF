@@ -1,4 +1,4 @@
-22 0 0
+23 0 0
 metadata
 @Subject
 9d7d93ccde8c280101e701214d0c1d05|Jenny||likesToEat||Biryani|
@@ -9,6 +9,7 @@ bac552544f542b549537269b944ebd66|Jenny||likesToEat||BreadButter|
 71b5da777b73f455415f527cc4540c24|Jenny||likesToEat||VadaPav|
 c4aebb0da2dd7c84e13fc4df02654a43|Jenny||likesToEat||Pavbhaji|
 e16ffa61a61ee3e1b08b9dce0deceb94|Jenny||likesToEat||Dosa|
+d78097e9b6812ac3d37bf34f06d230c7|Jenny||teaches||Samir|
 c2a399e13af9dbadc41b7b967a1deb95|Jenny||teaches||Swadesh|
 da14b3e11e7621846e493db4bea4ae64|Jenny||teaches||Sargun|
 d18032aa6345478915e0aaaee95cd5f2|Jenny||teaches||Sahil|
@@ -22,5 +23,6 @@ da1f0caedd76493a158b52c3d93fc5a6|Jenny||teaches||Shivam|
 fe3c07b39bb7446dc3fa3a5e115ca015|Jenny||teaches||Anirudh|
 3820a830e752d6b7a8be202e20b1f1ce|Jenny||teaches||Sid|
 977d06a9d11d1733bdf058050188b620|Jenny||teaches||Ayush|
+05d9ebea96b9f973c622b32db67680f0|Jenny||teaches||Vipin|
 @Predicate
 @Object

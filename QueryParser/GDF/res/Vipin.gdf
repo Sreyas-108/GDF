@@ -1,4 +1,4 @@
-20 0 13
+20 0 14
 metadata
 @Subject
 9aaaf10b0ccdd7db51af3d45dfdb8dc4|Vipin||likesToEat||Sandwich|
@@ -23,6 +23,7 @@ fcd7e6646041973f09986d7dc57890a0|Vipin||registeredIn||DISCO|
 a49f1c5b9a106fecf416f8cb758cd743|Vipin||registeredIn||DSA|
 @Predicate
 @Object
+./GDF/res/Jenny.gdf : 05d9ebea96b9f973c622b32db67680f0
 ./GDF/res/Kamlesh.gdf : 762e79483c2f52320aa17ac58fd3331d
 ./GDF/res/Amit.gdf : 7dd213db6b7a63ede91daa9a4b674637
 ./GDF/res/Sundar.gdf : 68f155e9fd3bdb6d8be4b4ecf03e6444
