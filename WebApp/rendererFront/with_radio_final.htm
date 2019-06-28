@@ -32,15 +32,13 @@ body {
 .shadow {
 	text-shadow: 2px 2px 2px red;
 }
-#buttons {
-	margin-left: 20px;
-	margin-right: 20px;
-}
 .button-container {
 	text-align: center;
 }
 .button {
 	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 .footer {
 	float: left;
@@ -119,44 +117,44 @@ p{
 
 </style>
 	</head>
-
 	<body>
 		<div class="header shadow" id="i02"> <h1 id="i01"> Graph Data Digest Document Format </h1> </div>
 		<form method="get">
 		<div class="row">
 			<div class="columns">
-				<span id="i02"> Subject: </span> <input type="text" size="50" autofocus name="Subject" placeholder="Subject" autocomplete="on">
+				<span id="i02"> Subject: </span> <input type="text" size="50" autofocus name="Subject" placeholder="Subject" autocomplete="on" id="subjectBox">
 				<br>
 			</div>
 			<div class="columns">
-				<span id="i02"> Predicate: </span> <input type="text" size="50" autofocus name="Predicate" placeholder="Predicate" autocomplete="on">
+				<span id="i02"> Predicate: </span> <input type="text" size="50" autofocus name="Predicate" placeholder="Predicate" autocomplete="on" id="predicateBox">
 				<br>
 			</div>
 			<div class="columns">
-				<span id="i02"> Object: </span> <input type="text" size="50" autofocus name="Object" placeholder="Object" autocomplete="on"> 
+				<span id="i02"> Object: </span> <input type="text" size="50" autofocus name="Object" placeholder="Object" autocomplete="on" id="objectBox"> 
 				<br>
 			</div>
 		</div>
 		<br><br>
 		<div class="button-container">
-		<div class="button">
-			<input type="submit" class="block" id="buttons" value="Query">
-			<input type="submit" class="block" id="buttons" value="Create">
-			<input type="submit" class="block" id="buttons" value="Delete">
+		<div>
+			<input type="submit" class="block button" id="queryButton" value="Query">
+			<input type="submit" class="block button" id="createButton" value="Create">
+			<input type="submit" class="block button" id="deleteButton" value="Delete">
 			<br>
 			<br>
 			<p> <b>Choose how to parse output: </b></p>
-  			<input class="radio circle" type="radio" id="circle" name="shapes">
-  			<label for="circle" style = "font-family:courier">Triples</label>
+  			<input class="radio circle" type="radio" id="circle" name="shapes" checked>
+  			<label for="circle" style = "font-family:courier" >Triples</label>
 			&nbsp &nbsp &nbsp &nbsp
 			<input class="radio circle" type="radio" id="circle" name="shapes">
  			<label for="circle" style = "font-family:courier">SVG</label>
 		</div>
 		</div>
 		</form>
+		<script src="QueryHandler.js"></script>
 		<br>
 		<hr>
-		<div class="graphclass" id="graph" >
+		<div id="graph" >
 			<script src="https://d3js.org/d3.v4.min.js"></script>
 			<script src="https://unpkg.com/viz.js@1.8.0/viz.js" type="javascript/worker"></script>
 			<script src="https://unpkg.com/d3-graphviz@1.3.1/build/d3-graphviz.min.js"></script>

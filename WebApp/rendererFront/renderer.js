@@ -36,6 +36,7 @@ function randomColorString(string)
 	hash = hash & 0xFFFFFF;
 	return '#'+hash.toString(16);
 }
+//DOT documentation: https://www.graphviz.org/doc/info/attrs.html#d:center
 function getDOTfromGDF(filename) {
 	//read file
 	var dotArray=[]
@@ -63,14 +64,14 @@ function getDOTfromGDF(filename) {
           nodes.push(getLabel(words[5]));
           //Add edge_description
           var label=getLabel(words[3])
-          var QUERY_URL='page.html?predicate='+label
+          var QUERY_URL='with_radio_final.htm?predicate='+label
           edge_description.push(getLabel(words[1])+' -> '+getLabel(words[5])+'['+'label="'+getLabel(words[3])+'", color="'+randomColorString(getLabel(words[1]))+'", URL="'+QUERY_URL+'"];')
           n_edges++;
        }
     new Set(nodes).forEach(function(value1,value2,set){
     	var label=getLabel(value1)
     	n_nodes++;
-    	var QUERY_URL='page.html?subject='+label
+    	var QUERY_URL='with_radio_final.htm?subject='+label
     	dotArray.push(label+' [ '+'label="'+label+'", fillcolor="'+randomColor()+'", URL="'+QUERY_URL+'" ];')
     })
     dotArray=dotArray.concat(edge_description);
