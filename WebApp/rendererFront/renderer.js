@@ -43,6 +43,8 @@ function getDOTfromGDF(filename) {
 	dotArray.push('node [style="filled"];')
 	dotArray.push('size = "16.66,8.33!";') // 1200x600 at 72px/in, "!" to force
 	dotArray.push('ratio = "fill";')
+	dotArray.push('center = "true";')
+	dotArray.push('bgcolor="#64F0F0"')
 	/*const fs = require('fs') 
 	fs.readFile(filename, 'ascii', (err, data) => { 
 	    if (err) throw err; 

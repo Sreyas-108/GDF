@@ -4,6 +4,7 @@
 	<head>
 		<!-- link rel="stylesheet" type="css" href="~/GDF/rendererFront/style.css"> -->
 		<title> Renderer </title>
+	</head>
 <style>
 body {
 	background-color: #99C6E8;
@@ -20,8 +21,12 @@ body {
 }
 .row:after {
 	content: "";
+	background-color: red;
 	display: table;
 	clear: both;
+}
+.rend {
+	height:50%;
 }
 #i01 {
 	color: green;
@@ -107,59 +112,59 @@ p{
   display: block;
 }
 #graph{
-	height: 50%;
+	width: 100%
 	text-align: center;
 	background-color: #000000
 }
-#graph svg {
+#graph svg{
     height: 100%;
     width: auto;
     align-self: center;
 }
+
 
 </style>
 	</head>
 
 	<body>
 		<script src="QueryHandler.js"></script>
-		<div class="header shadow" id="i02"> <h1 id="i01"> Graph Data Digest Document Format </h1> </div>
+		<div class="header shadow" id="i02">
+		 <h1 id="i01"> Graph Data Digest Document Format </h1>
+		</div>
 		<form method="get">
-		<div class="row">
-			<div class="columns">
-				<span id="i02"> Subject: </span> <input type="text" size="50" autofocus name="Subject" placeholder="Subject" autocomplete="on">
-				<br>
+			<div class="row">
+				<div class="columns">
+					<span id="i02"> Subject: </span> <input type="text" size="50" autofocus name="Subject" placeholder="Subject" autocomplete="on">
+					<br>
+				</div>
+				<div class="columns">
+					<span id="i02"> Predicate: </span> <input type="text" size="50" autofocus name="Predicate" placeholder="Predicate" autocomplete="on">
+					<br>
+				</div>
+				<div class="columns">
+					<span id="i02"> Object: </span> <input type="text" size="50" autofocus name="Object" placeholder="Object" autocomplete="on"> 
+					<br>
+				</div>
 			</div>
-			<div class="columns">
-				<span id="i02"> Predicate: </span> <input type="text" size="50" autofocus name="Predicate" placeholder="Predicate" autocomplete="on">
-				<br>
-			</div>
-			<div class="columns">
-				<span id="i02"> Object: </span> <input type="text" size="50" autofocus name="Object" placeholder="Object" autocomplete="on"> 
-				<br>
-			</div>
-		</div>
-		<br><br>
-		<div class="button-container">
-		<div class="button">
-			<input type="submit" class="block" id="buttons" value="Query">
-			<input type="submit" class="block" id="buttons" value="Create">
-			<input type="submit" class="block" id="buttons" value="Delete">
 			<br>
 			<br>
-			<p> <b>Choose how to parse output: </b></p>
-  			<input class="radio circle" type="radio" id="circle" name="shapes">
-  			<label for="circle" style = "font-family:courier">Triples</label>
-			&nbsp &nbsp &nbsp &nbsp
-			<input class="radio circle" type="radio" id="circle" name="shapes">
- 			<label for="circle" style = "font-family:courier">SVG</label>
-		</div>
-		</div>
+			<div class="button-container">
+				<div class="button">
+					<input type="submit" class="block" id="buttons" value="Query">
+					<input type="submit" class="block" id="buttons" value="Create">
+					<input type="submit" class="block" id="buttons" value="Delete">
+					<br>
+					<br>
+					<p> <b>Choose how to parse output: </b></p>
+		  			<input class="radio circle" type="radio" id="circle" name="shapes">
+		  			<label for="circle" style = "font-family:courier">Triples</label>
+					&nbsp &nbsp &nbsp &nbsp
+					<input class="radio circle" type="radio" id="circle" name="shapes">
+		 			<label for="circle" style = "font-family:courier">SVG</label>
+				</div>
+			</div>
 		</form>
-		<div id="graph" >
-			<script src="https://d3js.org/d3.v4.min.js"></script>
-			<script src="https://unpkg.com/viz.js@1.8.0/viz.js" type="javascript/worker"></script>
-			<script src="https://unpkg.com/d3-graphviz@1.3.1/build/d3-graphviz.min.js"></script>
-			<script src="renderer.js"></script> 
+		<div id="graph">
 		</div>
 	</body>
 </html>
