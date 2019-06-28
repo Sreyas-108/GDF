@@ -7,4 +7,3 @@ for(var i=0;i<list.length;i++)
 	var value=pair[1]
 	document.getElementById(key+'Box').value=value
 }
-document.getElementById('queryButton').click()
