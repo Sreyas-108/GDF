@@ -62,7 +62,6 @@ void deleteTuple(char* subject,char* predicate,char* object){
 	strcat(object,".gdf");
 	FILE* sptr = fopen(subject,"r");
 
-	printf("%s\t%s\t%s\n",subject,predicate,object);
 	while(1)
 	{
 		if(feof(sptr))
@@ -108,29 +107,29 @@ void deleteTuple(char* subject,char* predicate,char* object){
 			char * copy=(char *)malloc(sizeof(char)*MAX*2);
 			fscanf(prptr,"%[^\n]\n",arr);
 			strcpy(copy,arr);
-			char * spl[2];
-			for(int i=0;i<2;i++)
+			if(strcmp(arr,"@Predicate")==0)
+			{
+				flag = 1;
+			}
+			if(flag!=1)
+				continue;
+			char * spl[3];
+			for(int i=0;i<3;i++)
 			{
 				spl[i]=(char *) malloc(sizeof(char)*MAX);
 			}
 
-			for(int i=0;i<2;i++)
+			for(int i=0;i<3;i++)
 			{
 				if(copy!=NULL)
-					strcpy(spl[i],strsep(&copy," : "));
+					strcpy(spl[i],strsep(&copy," "));
 			}
-
-			if(strcmp(arr,"@PREDICATE")==0)
-			{
-				flag = 1;
-			}
-			if(strcmp(arr,"@OBJECT")==0)
+			if(strcmp(arr,"@Object")==0)
 			{
 				flag = 0;
 			}
-			if(strcmp(spl[0],subject)==0 && strcmp(spl[1],md5sum(tuple))==0 && flag == 1)
+			if(strcmp(spl[0],subject)==0 && strcmp(spl[2],md5sum(tuple))==0 && flag == 1)
 			{
-				printf("Log\n");
 				fclose(prptr);
 				removeLine(predicate,arr,2);
 				break;
@@ -144,7 +143,7 @@ void deleteTuple(char* subject,char* predicate,char* object){
 	{
 		if(feof(optr))
 		{
-			printf("The given tuple was not foound in the object file. Please try something else.\n");
+			printf("The given tuple was not found in the object file. Please try something else.\n");
 			return;
 		}
 		else
@@ -152,26 +151,32 @@ void deleteTuple(char* subject,char* predicate,char* object){
 			char * copy=(char *)malloc(sizeof(char)*MAX*2);
 			fscanf(optr,"%[^\n]\n",arr);
 			strcpy(copy,arr);
-			char * spl[2];
-			for(int i=0;i<2;i++)
+			if(strcmp(arr,"@Object")==0)
+			{
+				flag = 1;
+			}
+			if(flag!=1)
+				continue;
+			char * spl[3];
+			for(int i=0;i<3;i++)
 			{
 				spl[i]=(char *) malloc(sizeof(char)*MAX);
 			}
 
-			for(int i=0;i<2;i++)
+			for(int i=0;i<3;i++)
 			{
 				if(copy!=NULL)
-					strcpy(spl[i],strsep(&copy," : "));
+					strcpy(spl[i],strsep(&copy," "));
 			}
-			if(strcmp(arr,"@OBJECT")==0)
-			{
-				flag = 1;
-			}
-			if(strcmp(spl[0],subject)==0 && strcmp(spl[1],md5sum(tuple))==0 && flag == 1)
+			if(strcmp(spl[0],subject)==0 && strcmp(spl[2],md5sum(tuple))==0 && flag == 1)
 			{
 				fclose(optr);
 				removeLine(object,arr,1);
+				break;
 			}
 		}
 	}
+	updateCounter(subject,0,1);
+	updateCounter(object,2,1);
+	updateCounter(predicate,1,1);
 }

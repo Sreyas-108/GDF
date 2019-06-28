@@ -17,6 +17,8 @@ char * lower(char * str);
 void removeLine(char* filename, char *arr, int flag);
 char * md5sum(char * arr);
 void deleteTuple(char * subject, char * predicate, char * object);
+void updateCounter(char * fileName, int flag, int toDo);
+
 // Returns an array of triplets of size n*3
 //char **solveSimpleSelectQuery(char* subject,char* predicate,char* object);
 char **solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object);
