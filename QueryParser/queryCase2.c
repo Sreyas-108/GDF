@@ -18,7 +18,7 @@ char ** solveSimpleSelectQueryCase2(char* subject,char* predicate,char* object)
 			int len=strlen(object);
 			len+=20;
 			char * name=(char *)malloc(sizeof(char)*len);
-			strcpy(name,"/GDF/res/\0");
+			strcpy(name,"./GDF/res/\0");
 			strcat(name,object);
 			strcat(name,".gdf\0");
 			fp=fopen(name,"r");
@@ -28,7 +28,7 @@ char ** solveSimpleSelectQueryCase2(char* subject,char* predicate,char* object)
 			int len=strlen(predicate);
 			len+=20;
 			char * name=(char *)malloc(sizeof(char)*len);
-			strcpy(name,"/GDF/pred/\0");
+			strcpy(name,"./GDF/pred/\0");
 			strcat(name,predicate);
 			strcat(name,".gdf\0");
 			fp=fopen(name,"r");
@@ -67,7 +67,7 @@ char ** solveSimpleSelectQueryCase2(char* subject,char* predicate,char* object)
 		}
 
 		triples=(char **)malloc(sizeof(char *)*(n+1));
-		printf("%d\n",n);
+		//printf("%d\n",n);
 		while(n--)
 		{
 			fscanf(fp,"%s : %[^\n]\n",uri,uid);
@@ -91,7 +91,7 @@ char ** solveSimpleSelectQueryCase2(char* subject,char* predicate,char* object)
 
 		char * name=(char *)malloc(sizeof(char)*len);
 
-		strcpy(name,"/GDF/pred/");
+		strcpy(name,"./GDF/pred/");
 		strcat(name,predicate);
 		strcat(name,".gdf\0");
 

@@ -1,0 +1,38 @@
+20 0 13
+metadata
+@Subject
+9aaaf10b0ccdd7db51af3d45dfdb8dc4|Vipin||likesToEat||Sandwich|
+6a3d1bf8f74b4d9a8a11ecb49cf0f3b9|Vipin||likesToEat||Burger|
+99f278c120019dce576d4df6713b5289|Vipin||likesToEat||Kadhi|
+2b5387593d4caf0934fb99ec545c819b|Vipin||likesToEat||BreadJam|
+9ccc2530ab4fb3d67b68e5d1db648cf5|Vipin||likesToEat||AlooParatha|
+2a3464b47194a57e456d462a296dfa58|Vipin||likesToEat||VadaPav|
+d06dd3879ef78682ea8d24372032d2ca|Vipin||likesToEat||Pavbhaji|
+c019275a2007d802d3ea0ad999abbee9|Vipin||likesToEat||Dosa|
+6d8cd44b133e8db3da6a996ba36269ef|Vipin||registeredIn||PPL|
+fc589234685992a4c0c93b7d03a403fe|Vipin||registeredIn||PnS|
+e2001b30b9d3e5ca86a23fd1c76524be|Vipin||registeredIn||M3|
+9280b721ede20e212d198b0e076d442c|Vipin||registeredIn||M2|
+772efd7e4996dcf42aea2c85470ab48b|Vipin||registeredIn||M1|
+e61c3c4d5f87e0b7cf690d7cf12a6435|Vipin||registeredIn||Thermo|
+d32cf984bce04def1cf9153c19560da4|Vipin||registeredIn||MeOW|
+fcd7e6646041973f09986d7dc57890a0|Vipin||registeredIn||DISCO|
+405a6ce030e2fbe65bf3b793ac25295b|Vipin||registeredIn||POE|
+62adf672df59a2758afc19ba7f1f41f4|Vipin||registeredIn||DD|
+211be11bfe8bc916d7b8b44b8c5e8c2d|Vipin||registeredIn||DBS|
+a49f1c5b9a106fecf416f8cb758cd743|Vipin||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Kamlesh.gdf : 762e79483c2f52320aa17ac58fd3331d
+./GDF/res/Amit.gdf : 7dd213db6b7a63ede91daa9a4b674637
+./GDF/res/Sundar.gdf : 68f155e9fd3bdb6d8be4b4ecf03e6444
+./GDF/res/Kannan.gdf : 539812049b5ee1d2e0ddd4a7179026f8
+./GDF/res/Ramesh.gdf : 465191a04bfd8983198394d16f958639
+./GDF/res/Suresh.gdf : b67b8ede959541006d4f3b00f477cd0a
+./GDF/res/Mukesh.gdf : b2222a3952eca3000bf3026bbe291e5e
+./GDF/res/GN.gdf : 2f96abfc61e2f060dfeebd675477502c
+./GDF/res/Kalpana.gdf : e2162d5c94445320facbbd3c91a2370c
+./GDF/res/Sanjay.gdf : 6a7f1e0454fdf0e9ee0aa8f5fb396916
+./GDF/res/Pogo.gdf : 8539f487f5bfcf3dc67b27a3f3c6318e
+./GDF/res/Nago.gdf : d149a177ce44cd01c90e0ee6bc29a139
+./GDF/res/Ashu.gdf : 2811112426a7790f35794feab1d5e936

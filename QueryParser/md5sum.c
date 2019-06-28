@@ -1,6 +1,5 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
+#include "selectQuery.h"
+
 char * md5sum(char * pqr)
 {
 	char * arr=(char *)malloc(sizeof(char)*35);	
@@ -11,12 +10,4 @@ char * md5sum(char * pqr)
 	fclose(fp);
 
 	return arr;
-}
-
-int main()
-{
-	char * zrr;
-	zrr=md5sum("vipin xyz");
-
-	printf("%s",zrr);
 }

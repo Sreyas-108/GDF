@@ -1,0 +1,35 @@
+19 0 11
+metadata
+@Subject
+bbed8a35396350d4dabd66307777bdb9|Divya||likesToEat||Burger|
+5be31a8f0a1be75d7f9f8021468d100b|Divya||likesToEat||FriedRice|
+6bec13033d07648f20d4d49f09129525|Divya||likesToEat||Biryani|
+9aabc5eb82ccb94a9c680d76858d67f5|Divya||likesToEat||Kadhi|
+85b8d8a8b7aa1885f3f82adfcf8ecef0|Divya||likesToEat||ShahiPaneer|
+d4ee3fc7962d30dd7cdf61b437e9c038|Divya||likesToEat||PaneerTikka|
+3fa23f4c578078ca7782ced611142705|Divya||registeredIn||DAA|
+6748a26eb9d0c5ccefd84b0c6f5aea89|Divya||registeredIn||CompArch|
+1e15a6e6dcd862ad6d908a3edf8db8d6|Divya||registeredIn||PnS|
+d74d7e715676504ded530ba0058dbfa3|Divya||registeredIn||M3|
+ffb06b2794d5864d41ee2c1b9b62e276|Divya||registeredIn||M1|
+967f772a99afbdca37802725c035847e|Divya||registeredIn||MeOW|
+2d651d718933e1b953db2cefb3979fa6|Divya||registeredIn||TRW|
+2c0fc5dd779a5e0fc8ce9eef7eab989f|Divya||registeredIn||PAVA|
+d236bc22e386c51db7364375fc539454|Divya||registeredIn||OOP|
+77e9f9edd7438398fb52585f137234ad|Divya||registeredIn||POE|
+7b1527d16b81c82b2d5bd1ec3a8b0d5f|Divya||registeredIn||DD|
+e8f4e947f183a2984675a791e7f61b61|Divya||registeredIn||MuP|
+d576f570ecb33b6d7c83eb6869fb1e45|Divya||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Jenny.gdf : 0893a95429c3bd1596115ca714508c67
+./GDF/res/Kamlesh.gdf : de079764d8f877de2c523525d49378f6
+./GDF/res/Amit.gdf : 8f548fe0044189c0031f93627ed0511c
+./GDF/res/Raman.gdf : 70267f1a28c1b225aaa73f18141b1de9
+./GDF/res/Manoj.gdf : 8a37a6f87e5fe01710dedcc95579a593
+./GDF/res/Rohil.gdf : 5f671edfff66f76955a78cbf10cbaf67
+./GDF/res/Suresh.gdf : 187bf2008ecd08ab27f77c500be5d304
+./GDF/res/GN.gdf : 17459e56718c044eb40efe9b684d35aa
+./GDF/res/Sunita.gdf : 3f7ff125aae2d9daaa52cde422583aaa
+./GDF/res/Sanjay.gdf : 1d41b30bafd60794af2072035d3a5d95
+./GDF/res/Ashish.gdf : 2adba43df79307f97ccfc0aae319ff01

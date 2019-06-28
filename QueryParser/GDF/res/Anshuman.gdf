@@ -1,0 +1,35 @@
+18 0 12
+metadata
+@Subject
+6d2d5adb1b39a471f5d68a3107d3e608|Anshuman||likesToEat||Pizza|
+512fa777adb1d6cdc676c6335f0f13ed|Anshuman||likesToEat||Biryani|
+983108dc656b849033ee372edfbafc79|Anshuman||likesToEat||Kadhi|
+b7d417d9ccaadfec8da88c90c9e58684|Anshuman||likesToEat||BreadJam|
+7fc43f7e26a9ad801f790900b63d7bed|Anshuman||likesToEat||BreadButter|
+9f432f6b1f9116f6f2c824ae65f1c76a|Anshuman||likesToEat||AlooParatha|
+7290bb52c7d763879715349f8f3135cc|Anshuman||likesToEat||VadaPav|
+74bf63fb67c1449d1612f92beb8a45d5|Anshuman||registeredIn||DAA|
+a951fbf8bac3adbf54714b0de80b00de|Anshuman||registeredIn||PPL|
+8443a464f16683485c9aab91d3ce1bca|Anshuman||registeredIn||Bio|
+1b833b42ef3b2d34bd156c4ecf5723d9|Anshuman||registeredIn||PnS|
+7f14544ae4dcbd37a0250444f51761c6|Anshuman||registeredIn||M2|
+bf7b13bb5a1b00d8cf178c111cadff73|Anshuman||registeredIn||M1|
+78015ac7eccb56df4b8b586055dd458f|Anshuman||registeredIn||Thermo|
+2cb1babfe858893758f5f5449c92bd2c|Anshuman||registeredIn||MeOW|
+04d7d93fdb1fc242aaac9b423ece8527|Anshuman||registeredIn||TRW|
+829d7f34a4d15ed409e91c1df35225fb|Anshuman||registeredIn||CP|
+594c3f60336fc27a239c596c6bed352f|Anshuman||registeredIn||MuP|
+@Predicate
+@Object
+./GDF/res/Kamlesh.gdf : 0025a343e6f903d80b30f32e76e0466b
+./GDF/res/Amit.gdf : 44d0c8d05a27d763c2aebc46500e29e0
+./GDF/res/Vishal.gdf : d59e70c0ce7487258433aecc4e57643e
+./GDF/res/Sundar.gdf : 843775325f02d66bf1895fa75d3dc21f
+./GDF/res/Manoj.gdf : 6a11aa477580a85344dcb6a586f91898
+./GDF/res/Suresh.gdf : f77ee83cef7ff6cd9009d87288348b42
+./GDF/res/GN.gdf : 0e11378b4354d126379008e33cd9fb43
+./GDF/res/Pogo.gdf : f51ddcb8c8d20dd6f42702abd38ce9f9
+./GDF/res/Nago.gdf : 7229538df8bf54ecec2770c1a39fc0aa
+./GDF/res/Ashu.gdf : 9f8575bbefc6f846acd785e849c811b5
+./GDF/res/Geeta.gdf : 1b19278dcf2b154bdae63c7b882d1a89
+./GDF/res/Ashish.gdf : 24f9de24d1167fd7183125b4e2a0df14

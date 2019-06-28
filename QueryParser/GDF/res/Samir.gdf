@@ -1,0 +1,33 @@
+16 0 12
+metadata
+@Subject
+969e006ae4a9c27ee9dd898b14d19d49|Samir||likesToEat||FriedRice|
+f9413e47c2bdc934133405d12f949bc9|Samir||likesToEat||Biryani|
+8daa5ca3f150b41964d24480758b2455|Samir||likesToEat||ShahiPaneer|
+b4a96e67e8cc304c3f407e6eb33eac51|Samir||likesToEat||BreadJam|
+c2b70dd7e0a3870198d9dd9e08d5c926|Samir||likesToEat||Dosa|
+5c6190a43ca31cf2626ab8930c0cc500|Samir||registeredIn||DAA|
+c3ff0bab9bb73d4d7b0107affb0d44c3|Samir||registeredIn||CompArch|
+656621cfc280e3abe5c9cb1764af2939|Samir||registeredIn||M3|
+e96e0f3b51f29e1b87dca11f0213ac13|Samir||registeredIn||M1|
+ab0abaa1765987a2b0dfb7bda0afa10e|Samir||registeredIn||MeOW|
+7447aabdc5750350df1d8296a1bc98bf|Samir||registeredIn||TRW|
+39051c542f903aa792c37537808b36e4|Samir||registeredIn||ES|
+cc7616ba0e96fdde29e38d1b4c59e6a7|Samir||registeredIn||OOP|
+611f631456f3b0f3ffd4ae65e2f05390|Samir||registeredIn||DISCO|
+61fed518e61f91ae40bc2428ae9af807|Samir||registeredIn||POE|
+85b4cb46bff57b2a63f13c9c63c6de51|Samir||registeredIn||DD|
+@Predicate
+@Object
+./GDF/res/Jenny.gdf : d78097e9b6812ac3d37bf34f06d230c7
+./GDF/res/Kamlesh.gdf : f2479afd27ef3c6847e7d1108fda4d87
+./GDF/res/Amit.gdf : 07a8f0e5022a1a601b6675cd8800bd6c
+./GDF/res/Manoj.gdf : 8e0b33738e9f081c9ce80cfd03cebc71
+./GDF/res/Ramesh.gdf : 51dc677b57388c8bad33fcf2265daa8b
+./GDF/res/GN.gdf : 3feef158e6e2699800d3785d358a2732
+./GDF/res/Sanjay.gdf : 6d52e9c989f01319a5d2c8d02fe8a5ed
+./GDF/res/Pogo.gdf : 32599c693f9c73eddad3c79c0bf062ae
+./GDF/res/Nago.gdf : 76e63cec6031bc8e0f21e8c88cd08d75
+./GDF/res/Ashu.gdf : 250db1d412c7d453e27691b78e7d4cb6
+./GDF/res/Geeta.gdf : 1e7e8daf5071ba0915926164bd9688e3
+./GDF/res/Ashish.gdf : e7d31f842e4add67b11ce861da6bd2ec

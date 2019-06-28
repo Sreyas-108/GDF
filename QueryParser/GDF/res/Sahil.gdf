@@ -1,0 +1,34 @@
+19 0 10
+metadata
+@Subject
+a128f946cd8f48deb7037756eac971a8|Sahil||likesToEat||Sandwich|
+795520b1cb10b34991533cbe7bf3f017|Sahil||likesToEat||Pizza|
+121f4a6e1f9cd3e80a175082332195d6|Sahil||likesToEat||Kadhi|
+10c50536f6f0f8d931bb83e27bcc78bf|Sahil||likesToEat||ShahiPaneer|
+0da9b4b4a23957edabaeaf5abeecf377|Sahil||likesToEat||PaneerTikka|
+6880215ff36d0d577b2a5312bb086677|Sahil||likesToEat||BreadButter|
+bb05c3659071f8aee4ac6cdd4435bd7e|Sahil||likesToEat||VadaPav|
+5190f7e4f0b238c20f8f1b57b09f6984|Sahil||likesToEat||Dosa|
+857a1e4e91b8dd02a2e3b460551a1b6e|Sahil||registeredIn||DAA|
+74bcf2a54f868a88b388a724940bad87|Sahil||registeredIn||CompArch|
+8e85b6a222b2eb8adebfae1c088a9cea|Sahil||registeredIn||M3|
+79f19f44ac1bc2bc34b620b3354778c8|Sahil||registeredIn||M1|
+d96a28a98b223d011251289d2db90dd6|Sahil||registeredIn||MeOW|
+86496ec2f5141ae9820219acc3fa1ff7|Sahil||registeredIn||ES|
+3f0e622fa53366c0ab8b53c677afb52e|Sahil||registeredIn||PAVA|
+5f2e200c087790ab5a922611795b74a1|Sahil||registeredIn||POM|
+f497a89b7a141b1a6311a6fb9bac2800|Sahil||registeredIn||POE|
+3f9ea1aeeba7529b82e87f6dcca791b1|Sahil||registeredIn||DBS|
+ea93b005ad98e0558364b5a6b7555c4f|Sahil||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Jenny.gdf : d18032aa6345478915e0aaaee95cd5f2
+./GDF/res/Amit.gdf : 95c114dbcafb7ea53494618ecfe059e6
+./GDF/res/Raman.gdf : 3b80d2765940af172169e5ec5f572e15
+./GDF/res/Ramesh.gdf : f5e07ef7effdb5da2eb8b6732d326349
+./GDF/res/Rohil.gdf : 5cd5b4e5aa254f2641bc66b694881213
+./GDF/res/Mukesh.gdf : f04bf5732eabe7aa68d2013866de4404
+./GDF/res/Pogo.gdf : 08f3353e08a26d830f9dc4035806d193
+./GDF/res/Nago.gdf : e9ef3d9c8c04001011f7d826ab044d78
+./GDF/res/Geeta.gdf : 427bea1dc319d2517612f6498056775a
+./GDF/res/Ashish.gdf : fef97491774a3252173ba67a56492878

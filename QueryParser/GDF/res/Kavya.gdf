@@ -1,0 +1,32 @@
+16 0 11
+metadata
+@Subject
+eb12fac6aeb489cb74cf91ef04af78ba|Kavya||likesToEat||Sandwich|
+b806507e94087d8f5a1206716fcad328|Kavya||likesToEat||Pizza|
+b423386b96da29278b9a368b83a22fc5|Kavya||likesToEat||BreadJam|
+79462e5d8d83e6c6dcbc1961d09ef503|Kavya||likesToEat||AlooParatha|
+c9a8ba7dbe6b52da0ea93a3368f39d53|Kavya||likesToEat||VadaPav|
+c832ee4227f0ba1424bf5a8e68d0c4f4|Kavya||registeredIn||PPL|
+7d1f84bc822bafc0ea03bc5d1f32491a|Kavya||registeredIn||Bio|
+22c8e75d775a514a706c6fd101d0c94e|Kavya||registeredIn||PnS|
+b1e84e91cc57387ac275a6b8e7723cb6|Kavya||registeredIn||M3|
+984c33127f7a1c078ba4e84a81181d10|Kavya||registeredIn||M2|
+79239cb2e70b915edf397f58b5ec83ca|Kavya||registeredIn||M1|
+70f22a4e1c51b47926eb9b12e8a7637e|Kavya||registeredIn||OOP|
+fa595826f209bfb810a2acd40508ba46|Kavya||registeredIn||DISCO|
+6eb6311a1cee98aac489a93fd1291185|Kavya||registeredIn||POM|
+f1fbb9f671e0fbb906ea52a8c044660a|Kavya||registeredIn||DD|
+dc6213fd9a43ed8232a578d09acb326c|Kavya||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Jenny.gdf : d8c015ebdc812f0ad36cd18a5536d317
+./GDF/res/Kamlesh.gdf : dd3c499e8598c69df5f28587455a87f4
+./GDF/res/Amit.gdf : 11cd3fbf49d3e8d825d7e0ed58b1f255
+./GDF/res/Raman.gdf : 5b6b90d370b4503a99717d6bc3050c9d
+./GDF/res/Manoj.gdf : 2ffd633a16caf133e3db3fa719599f52
+./GDF/res/Ramesh.gdf : 1e543e9b191ca6e874552d89889e8107
+./GDF/res/Mukesh.gdf : 3ec8cbc4a71c831a675555645eace768
+./GDF/res/Pogo.gdf : 08643c52b12ae63d9eb4ed480795723c
+./GDF/res/Ashu.gdf : 424cc206214c01f829da3c840333fda2
+./GDF/res/Shan.gdf : 8220db42cb5b48d2e23af95d6a38a0a9
+./GDF/res/Ashish.gdf : 4afd7439eefccd14b09a62e223270237

@@ -1,0 +1,35 @@
+20 0 10
+metadata
+@Subject
+a833d3097a4a07ec8cf9956316aca6b9|Bhoomi||likesToEat||Pizza|
+8ad9d0fc635212a28603f67f754759e9|Bhoomi||likesToEat||FriedRice|
+dc0bb935f3fff12a19f2dd1b5963e62e|Bhoomi||likesToEat||Biryani|
+4b5bc4ea9e230c4e50eecd65447d0253|Bhoomi||likesToEat||ShahiPaneer|
+48863fe01c65d09d1c286708b2c78041|Bhoomi||likesToEat||PaneerTikka|
+01668e6c16b6f6be61bcac530f927328|Bhoomi||likesToEat||BhelPuri|
+4f0aa93cde6c14b6ebb7fcd100b68a1f|Bhoomi||likesToEat||VadaPav|
+21c898cb9ff79b658e4d9310d2937da1|Bhoomi||likesToEat||Pavbhaji|
+4a977c4a89dfe847ec130cea059cc19a|Bhoomi||likesToEat||Dosa|
+59e905184ed3157ee49f880b60d63e6c|Bhoomi||registeredIn||Bio|
+4c396a9883ab149fab8ed03b980cf637|Bhoomi||registeredIn||M2|
+74ba2985da689035fe4ad596230f1926|Bhoomi||registeredIn||TRW|
+332fd5305eb8ca0434f3e396a19bbd1a|Bhoomi||registeredIn||ES|
+85fc9f42ac35e2fefe071e9f0ed85dc1|Bhoomi||registeredIn||CP|
+c40e7782eeaadc79695ae834ad9a429e|Bhoomi||registeredIn||PAVA|
+25e8ba7a81f580ee4c97844f035c1af0|Bhoomi||registeredIn||OOP|
+681fbdd4b8faaaaa4e3e3b52d1456f40|Bhoomi||registeredIn||POM|
+b316b980674e8089976454b92b29af3e|Bhoomi||registeredIn||POE|
+e230345cf6936ffd671d423499f7ba47|Bhoomi||registeredIn||DBS|
+46df54d0da53727b460c7e324ed7ebb1|Bhoomi||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Kamlesh.gdf : 34698331f8e8444d3f1b1e0fc355f59e
+./GDF/res/Amit.gdf : 900d2078a9c90d2b9600812a08a21661
+./GDF/res/Vishal.gdf : 7b7e5541bad3dc14e9135a8c316ecbe8
+./GDF/res/Raman.gdf : 9a27576d525a2311c15e9ab774951515
+./GDF/res/Manoj.gdf : 97e830f4ffb142d7d0c1bc9e351a4341
+./GDF/res/Ramesh.gdf : b1f47aadf20fe4c5074da522dfaa2892
+./GDF/res/Suresh.gdf : a4568d293aa4576216885cbd0bae2c48
+./GDF/res/Mukesh.gdf : bb4a141e50d1898163ee92d5a9ecb300
+./GDF/res/Nago.gdf : d0cf554ec4a361007220cd3a34d1ef46
+./GDF/res/Ashish.gdf : 70717c54a44ae2eb7358cad7e7e5570f

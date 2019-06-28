@@ -1,0 +1,32 @@
+16 0 11
+metadata
+@Subject
+fa0f53ffe8ecb84b3bb8d8b396eb5151|Akriti||likesToEat||Sandwich|
+1637927fa1a64ef4536bf2321be47041|Akriti||likesToEat||Burger|
+436c6959cadc7bd498c88152b8405fc4|Akriti||likesToEat||FriedRice|
+639292a4d54dd943aa3c9b2f767e9bf2|Akriti||likesToEat||Biryani|
+a05572e8cc9ac3fcb52ef9b7a614f39e|Akriti||likesToEat||Kadhi|
+7a3d36983d575cfb8dcc9b83d912a228|Akriti||likesToEat||Dosa|
+7cf8f90fdfca63243b540838207012e5|Akriti||registeredIn||DAA|
+75e43c0a8d7f9671675ff332cd90d08d|Akriti||registeredIn||CompArch|
+3ff9a6838e85b81197ee879016921765|Akriti||registeredIn||M1|
+624caaa96604092424f759e1ccb249c4|Akriti||registeredIn||TRW|
+1865c4b45e696814d5c27b1af4f0f832|Akriti||registeredIn||ES|
+9899018bc1ac2caa5a1d4f807e130ba2|Akriti||registeredIn||CP|
+48a0bed640710cd620bb928cfc3e4471|Akriti||registeredIn||POM|
+23af0b7ee2c8e9167ff9867aafb84a38|Akriti||registeredIn||POE|
+df90cd40c3f4c36f8d7e0d8262602744|Akriti||registeredIn||MuP|
+5eb7567eaed5c10dfde3b45ea882b3d8|Akriti||registeredIn||DBS|
+@Predicate
+@Object
+./GDF/res/Amit.gdf : 489d0a60dfc1164026963d985c6176e8
+./GDF/res/Sundar.gdf : bad58b8e3628275224cbe006a5c0937f
+./GDF/res/Manoj.gdf : 2a111d75939db98c3b730eed8e869692
+./GDF/res/Ramesh.gdf : 0828749205f6bf1d7a56d58cf1406ee6
+./GDF/res/Rohil.gdf : 2146e0ccfc2aad68007d36fcfea1a286
+./GDF/res/Mukesh.gdf : edfe84db072539b7c9e31f952ce12e50
+./GDF/res/Pogo.gdf : 635876b08131617fcf524157b91465d7
+./GDF/res/Nago.gdf : 3a0371a3c7e458fa1cc0f6d65f42aee0
+./GDF/res/Geeta.gdf : 67c469b61b854e2fac74afd986cc8df9
+./GDF/res/Shan.gdf : d17d7094ce367ac03f1f9dfe0c243367
+./GDF/res/Ashish.gdf : ed6d0a0f5e85cac611cd88cf0b51a079

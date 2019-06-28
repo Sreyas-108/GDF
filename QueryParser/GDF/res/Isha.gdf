@@ -1,0 +1,41 @@
+21 0 15
+metadata
+@Subject
+377284ed41fb381da583c8e2c8aebdb2|Isha||likesToEat||Burger|
+c4f51487bd63b6d3361f967cbdaa457f|Isha||likesToEat||Pizza|
+02938afb2aa86b971182b6f11a2b16cc|Isha||likesToEat||Biryani|
+375a3c4f94a1a75ac497885a64eec24c|Isha||likesToEat||Kadhi|
+d7e84a677e1a9fc3567dedceb1e7137f|Isha||likesToEat||ShahiPaneer|
+b31bcee5b2be507daa634682a1eaae2d|Isha||likesToEat||BhelPuri|
+4b49c4868de7416924e49248654fe598|Isha||likesToEat||AlooParatha|
+e09e0788403dc18cd853b744e416c757|Isha||likesToEat||VadaPav|
+49dc7062fe5793fb0e71e7bf848d488e|Isha||likesToEat||Pavbhaji|
+0721e5379c5520f2ba81771dca9a1fb6|Isha||registeredIn||DAA|
+afe67e33691a4a203dc142017eb81990|Isha||registeredIn||CompArch|
+60025bb41f6e3e526f6d42eb41d69385|Isha||registeredIn||Bio|
+c7be0e170cb533fc087e3d788f4d057a|Isha||registeredIn||M3|
+956fd72db4b114522a522b8bc7af61d9|Isha||registeredIn||Thermo|
+71abe86163fa7716604d74ba07fe1ba4|Isha||registeredIn||TRW|
+7b93cbe2bf8e8929bb430bb215d7ef3a|Isha||registeredIn||ES|
+59ae695c84b7a36f781b0913a5aa6992|Isha||registeredIn||PAVA|
+fa911b2f5b066e7c929b29cb8528b839|Isha||registeredIn||DISCO|
+408688e4a5a00e6727ed57d351ca56c0|Isha||registeredIn||DD|
+182677c3dd22e64b7651f5ad27a37ecd|Isha||registeredIn||MuP|
+7db88240e756dbe874bc50ddd6b1f7b8|Isha||registeredIn||DBS|
+@Predicate
+@Object
+./GDF/res/Jenny.gdf : 9b1c5d5a96abcf66c5186e5a891a1b85
+./GDF/res/Kamlesh.gdf : 50a76fa3380cf0d399ca2d64d04f50c4
+./GDF/res/Amit.gdf : 1031ec7b364c96c4bc8f44b4e8c45c5e
+./GDF/res/Sundar.gdf : f2a60853ecd502345632f819d6ca1ad7
+./GDF/res/Kannan.gdf : 94bf0cbfae1f3c989f744cf0f9de3719
+./GDF/res/Manoj.gdf : a54e2543fa0b98f5a29e321f36b38636
+./GDF/res/Ramesh.gdf : 3d09cc704e5bd7a88a3974ab736aedf9
+./GDF/res/Rohil.gdf : a9ceed0abe60a28af9cc82fab8df8284
+./GDF/res/Suresh.gdf : 87592d6d53fbc144aaf648cc51c1c39d
+./GDF/res/Mukesh.gdf : f705211067fd57bae2b44597caced298
+./GDF/res/GN.gdf : 501384ff35773d63c588742e8b979f0d
+./GDF/res/Sunita.gdf : 3878c55eb2f07c8780d29b82e48e50ab
+./GDF/res/Pogo.gdf : 67265ccc7c90aa205e50b14ba58aa0fa
+./GDF/res/Nago.gdf : 15daf3edc709dac6e323e2f361353e17
+./GDF/res/Ashish.gdf : c459dd91473c06a04dde928b71fa2a3c

@@ -1,0 +1,30 @@
+17 0 8
+metadata
+@Subject
+6f9994a6e16368c7e95b963157f84b27|Sashan||likesToEat||Burger|
+a76189cb3f4525e832901d53012c3749|Sashan||likesToEat||Biryani|
+a9a3f113fdc51a5b8926a17562b6dd64|Sashan||likesToEat||ShahiPaneer|
+5c72831c3cc93f8d72b91f1376cd59ee|Sashan||likesToEat||BhelPuri|
+8c09e1936356c002bb61a0e14e784b5d|Sashan||likesToEat||VadaPav|
+6916c008fb78d95e4c556b7eace32ba0|Sashan||likesToEat||Pavbhaji|
+563b5278de9eca27e8881a49330b3d5d|Sashan||registeredIn||DAA|
+058a874140bb8806617614aaff574bcd|Sashan||registeredIn||CompArch|
+e1b944abc79ac44a5648e7251f1b24b2|Sashan||registeredIn||PPL|
+08c83138ab4846c5b9ade0a6f937cef4|Sashan||registeredIn||M3|
+df9c7c1b0a409a4ff5c6ea78743c7843|Sashan||registeredIn||Thermo|
+3483a5df3891687aad4253903c3af3be|Sashan||registeredIn||TRW|
+417b85689daa8477c69732d5606465eb|Sashan||registeredIn||ES|
+d3ecf581665634a6ec39386ef5af6167|Sashan||registeredIn||OOP|
+7311195aef1412ea9a7fd948f311e45f|Sashan||registeredIn||DISCO|
+be0ea7e7bbc11c6a6f916f3883d5e649|Sashan||registeredIn||DD|
+b635a6b695dfad738ea79602612290c2|Sashan||registeredIn||DBS|
+@Predicate
+@Object
+./GDF/res/Amit.gdf : 63242def7d9a682ef922b3cc0b2b5073
+./GDF/res/Sundar.gdf : 7ddae9887bcad14adf6a11c68b2e1f68
+./GDF/res/Kannan.gdf : 8d69e8edfc4c1f684c08a04ec161c2d7
+./GDF/res/Rohil.gdf : ecbceaf6824d8f8018534d667bc1f4d8
+./GDF/res/Suresh.gdf : 8fe990ffec3e3be4e649eeb4f60bb007
+./GDF/res/Sunita.gdf : 55f3d0e08a706b2d7b539c9577be7fac
+./GDF/res/Nago.gdf : afbf901278888d3fc79f676469087bdc
+./GDF/res/Geeta.gdf : f7bf1a538aa2c49ec1f4f88abb9c03a0

@@ -16,7 +16,7 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 		int len=strlen(subject);
 		name=(char *)malloc(sizeof(char)*(len+20));	//reallocate memory for subject to be able to append .gdf
 
-		strcat(name,"/GDF/res/");
+		strcat(name,"./GDF/res/");
 		strcat(name,subject);
 		strcat(name,".gdf\0");
 
@@ -61,7 +61,7 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 					strcpy(spl[i],strsep(&readWhole,"|"));
 				}
 
-				if((object!=NULL && strcmp(lower(spl[5]),lower(object))==0) || (predicate!=NULL && strcmp(lower(spl[3]),lower(predicate))==0) || (predicate==NULL && object==NULL)) 
+				if((object!=NULL && strcmp(spl[5],object)==0) || (predicate!=NULL && strcmp(spl[3],predicate)==0) || (predicate==NULL && object==NULL)) 
 				{
 
 					int tmp=0;
@@ -109,7 +109,7 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 					strcpy(spl[i],strsep(&readWhole,"|"));
 				}
 	
-				if(strcmp(lower(subject),lower(spl[1]))==0 && strcmp(lower(spl[5]),lower(object))==0 && strcmp(lower(spl[3]),lower(predicate))==0)
+				if(strcmp(subject,spl[1])==0 && strcmp(spl[5],object)==0 && strcmp(spl[3],predicate)==0)
 				{
 					found=true;
 					
@@ -137,7 +137,5 @@ char ** solveSimpleSelectQueryCase1(char* subject,char* predicate,char* object)
 				triples[1]=NULL;
 		}
 	}
-	else
-		return;
 	return triples;
 }

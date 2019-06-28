@@ -1,0 +1,33 @@
+19 0 9
+metadata
+@Subject
+8e0fd31e03b524b75b691ed4bc210f5a|Sushakt||likesToEat||FriedRice|
+2467892ac4fe532a483d6ba3a7fdda1f|Sushakt||likesToEat||Biryani|
+7304a027a13767722656caec2bf3ac92|Sushakt||likesToEat||Kadhi|
+8603559edb2020055ce8fc185a03d794|Sushakt||likesToEat||ShahiPaneer|
+0eb61a811af958e813d942c4f67c7b1e|Sushakt||likesToEat||PaneerTikka|
+34356f41b8e7690f5924835109cb6338|Sushakt||likesToEat||BreadJam|
+a491e529f4bc9404ce616ea8f3a73127|Sushakt||likesToEat||BreadButter|
+af959e1995f866ac0d5b00db9cc22fa4|Sushakt||likesToEat||Pavbhaji|
+5642a9ee715345a5aa75d4f308a34095|Sushakt||registeredIn||PPL|
+4bc4b48f9cb90f815d415ee48399d0c7|Sushakt||registeredIn||M2|
+5062dc3801546569849bbbbe3c7def7f|Sushakt||registeredIn||M1|
+bd0ffd1959d98940862ce62e52135980|Sushakt||registeredIn||MeOW|
+72a847558f945a90456f85de35dff549|Sushakt||registeredIn||ES|
+6f5bf4cc4c4d9a5fb8db65d48d48c131|Sushakt||registeredIn||CP|
+232e3c3e96ef5685ab5893294966466d|Sushakt||registeredIn||OOP|
+b8cea3e93936aa05df9b69e14e149216|Sushakt||registeredIn||DISCO|
+e53a116774c31cad745393c7b4787f24|Sushakt||registeredIn||POM|
+bdb3107bae23da457002ae949b4cd94c|Sushakt||registeredIn||POE|
+3df23ac009e40929545b06f7d87e0e1a|Sushakt||registeredIn||MuP|
+@Predicate
+@Object
+./GDF/res/Kamlesh.gdf : 9ad4ac7ed49167befbfe0a12cd8f73f3
+./GDF/res/Sundar.gdf : 3d93f2fdc12e557f24a8ece5344fba57
+./GDF/res/Kannan.gdf : bb63e5668bdd0ef91c361d5ff2cd84b8
+./GDF/res/Suresh.gdf : ed643008a9dd23ceece6840209b96795
+./GDF/res/Mukesh.gdf : daee4c42ddd701c2ba367c3f8b66bbe7
+./GDF/res/Sunita.gdf : 1f8ff8539f6208233a6fee51ce91aed5
+./GDF/res/Pogo.gdf : 18f1297dc356ce41adad95fd12f4034c
+./GDF/res/Nago.gdf : 6aac1daa7738747e181efacf60ab155f
+./GDF/res/Shan.gdf : 25b43187d34f8e0351378913da655f6f

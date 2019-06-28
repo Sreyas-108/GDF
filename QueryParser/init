@@ -1,6 +1,17 @@
 #!/bin/bash
 
+flag=$(ls | grep "^GDF$")
+if [[ -z $flag ]]
+then
+	cd .
+else
+	rm -r GDF
+fi
+
+mkdir GDF
+cd GDF
 mkdir pred res
+cd ..
 filename='dist.gdf'
 rel=(NaN NaN NaN NaN NaN NaN NaN)
 header=(NaN NaN NaN)
@@ -9,14 +20,14 @@ while read line
 do
 	IFS='|' read -r -a rel<<<"$line"
 	outfile=${rel[1]}.gdf
-	cd ./res
+	cd ./GDF/res
         flag=$(ls | grep $outfile)
 	if [[ -z $flag ]]
 	then
 	    touch $outfile
-	    n1=$(grep ".*|${rel[1]}|.*|.*|.*|.*|.*" ../dist.gdf | wc -l)
-	    n2=$(grep ".*|.*|.*|${rel[1]}|.*|.*|.*" ../dist.gdf | wc -l)
-	    n3=$(grep ".*|.*|.*|.*|.*|${rel[1]}|.*" ../dist.gdf | wc -l)
+	    n1=$(grep ".*|${rel[1]}|.*|.*|.*|.*|.*" ../../dist.gdf | wc -l)
+	    n2=$(grep ".*|.*|.*|${rel[1]}|.*|.*|.*" ../../dist.gdf | wc -l)
+	    n3=$(grep ".*|.*|.*|.*|.*|${rel[1]}|.*" ../../dist.gdf | wc -l)
 	    echo "$n1 $n2 $n3" > $outfile
 	    echo 'metadata' >> $outfile
 	    echo '@Subject' >> $outfile
@@ -31,9 +42,9 @@ do
 	if [[ -z $flag ]]
 	then
 	    touch $outfile
-	    n1=$(grep ".*|${rel[5]}|.*|.*|.*|.*|.*" ../dist.gdf | wc -l)
-	    n2=$(grep ".*|.*|.*|${rel[5]}|.*|.*|.*" ../dist.gdf | wc -l)
-	    n3=$(grep ".*|.*|.*|.*|.*|${rel[5]}|.*" ../dist.gdf | wc -l)
+	    n1=$(grep ".*|${rel[5]}|.*|.*|.*|.*|.*" ../../dist.gdf | wc -l)
+	    n2=$(grep ".*|.*|.*|${rel[5]}|.*|.*|.*" ../../dist.gdf | wc -l)
+	    n3=$(grep ".*|.*|.*|.*|.*|${rel[5]}|.*" ../../dist.gdf | wc -l)
 	    echo "$n1 $n2 $n3" > $outfile
 	    echo 'metadata' >> $outfile
 	    echo '@Subject' >> $outfile
@@ -41,7 +52,7 @@ do
 	    echo '@Object' >> $outfile
 
 	fi
-        op='/GDF/res/'${rel[1]}'.gdf : '${rel[0]}
+        op='./GDF/res/'${rel[1]}'.gdf : '${rel[0]}
 	sed '/@Object/a \'$op'' $outfile > temp
 	rm $outfile
 	mv temp $outfile
@@ -51,9 +62,9 @@ do
 	if [[ -z $flag ]]
 	then
 	    touch $outfile
-	    n1=$(grep ".*|${rel[3]}|.*|.*|.*|.*|.*" ../dist.gdf | wc -l)
-	    n2=$(grep ".*|.*|.*|${rel[3]}|.*|.*|.*" ../dist.gdf | wc -l)
-	    n3=$(grep ".*|.*|.*|.*|.*|${rel[3]}|.*" ../dist.gdf | wc -l)
+	    n1=$(grep ".*|${rel[3]}|.*|.*|.*|.*|.*" ../../dist.gdf | wc -l)
+	    n2=$(grep ".*|.*|.*|${rel[3]}|.*|.*|.*" ../../dist.gdf | wc -l)
+	    n3=$(grep ".*|.*|.*|.*|.*|${rel[3]}|.*" ../../dist.gdf | wc -l)
 	    echo "$n1 $n2 $n3" > $outfile
 
 	    echo 'metadata' >> $outfile
@@ -62,10 +73,10 @@ do
 	    echo '@Object' >> $outfile
 
 	fi
-	op='/GDF/res/'${rel[1]}'.gdf : '${rel[0]}
+	op='./GDF/res/'${rel[1]}'.gdf : '${rel[0]}
 	sed '/@Predicate/a \'$op'' $outfile > temp
 	rm $outfile
 	mv temp $outfile
-	cd ..
 	IFS=$'\n'
+	cd ../..
 done < $filename

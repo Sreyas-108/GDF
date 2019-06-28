@@ -1,0 +1,26 @@
+13 0 8
+metadata
+@Subject
+649325e079d4fa04768870e434a8f75b|Shalvi||likesToEat||Burger|
+034d8ab8d2fa4df82802e3d35998a26e|Shalvi||likesToEat||Biryani|
+8ef9d9332af7bd807efc02eaf7719f0f|Shalvi||likesToEat||Kadhi|
+032553fb73f3ffcb8417ddbc1af86941|Shalvi||likesToEat||ShahiPaneer|
+89074b0f90e1b6fe9490c527759718d8|Shalvi||likesToEat||PaneerTikka|
+59081024e2beb320e7765e7eb82ce136|Shalvi||likesToEat||BreadButter|
+42a12aec76f22e12a6891f18ccb89695|Shalvi||likesToEat||Dosa|
+148561b476151cc014f94af49c6b31c5|Shalvi||registeredIn||CompArch|
+89eb1c3c95cade55869dd806623d1179|Shalvi||registeredIn||PPL|
+10107e191f8b1d1e7159a07d5f34e724|Shalvi||registeredIn||Bio|
+05c2aa1b127feb9fae419a2970930dcf|Shalvi||registeredIn||MeOW|
+20fdf72052ee3fa2fbbc603c805db1a5|Shalvi||registeredIn||ES|
+aee9091402970493c9c2b22c16d2740d|Shalvi||registeredIn||POM|
+@Predicate
+@Object
+./GDF/res/Jenny.gdf : 70fd4bc59f00f8931818a11e719d8872
+./GDF/res/Kamlesh.gdf : 2c00ae7e59e47f7ddd3647667ea0c391
+./GDF/res/Kannan.gdf : eec9086000616194e70806dc578e1bd0
+./GDF/res/Rohil.gdf : 2217ff7fe2742dceb9e0495787b633c2
+./GDF/res/GN.gdf : 91746d4a7a08c9f28582eb28bc7b11b1
+./GDF/res/Kalpana.gdf : 5abc1271caf3b3e3e2504a01b6d7e056
+./GDF/res/Nago.gdf : 1bab13285d258f1507626340b7896689
+./GDF/res/Shan.gdf : f43ada1ab5b974e746fc29a0bbef9de4

@@ -1,0 +1,34 @@
+18 0 11
+metadata
+@Subject
+ac883d4e2b31725fa04fc91c9b658ac8|Kshitij||likesToEat||Sandwich|
+735527cc9cb4e1b0de8efac3287615a6|Kshitij||likesToEat||Pizza|
+622e17ea6905bd16053557ab46aec04a|Kshitij||likesToEat||PaneerTikka|
+113ebbb3aedcddb07510ce5e86ed3f50|Kshitij||likesToEat||AlooParatha|
+d5f50185c4eb67240e83096dc6429fdd|Kshitij||likesToEat||VadaPav|
+f6543a79c1e6c2a1c0d2014775ec9b78|Kshitij||registeredIn||DAA|
+826ddb0417d9bb1274d65225d18f0740|Kshitij||registeredIn||CompArch|
+d84e240210d5cf8d95d6a6e8c18f444c|Kshitij||registeredIn||PPL|
+977888b7f6018750f135be0f8f56ec2a|Kshitij||registeredIn||Bio|
+1ba15688915335a5e9a452dfc626b534|Kshitij||registeredIn||M3|
+f8797561bb6a44657835a64b6f0b884c|Kshitij||registeredIn||Thermo|
+f7dc66ddc6b6368d3a3a521d8faf6216|Kshitij||registeredIn||MeOW|
+54c3465eb9bbeff3172a1454edfeb537|Kshitij||registeredIn||TRW|
+17b24eaf79c1f86eaf3c5f07afd1f22f|Kshitij||registeredIn||ES|
+1dd46728b9181b29ca00b9f6eda13c1f|Kshitij||registeredIn||PAVA|
+a0a7148bbe220db1a43edd37062fb61b|Kshitij||registeredIn||DISCO|
+fb694db74a72be43194cde5a103e2449|Kshitij||registeredIn||POM|
+139579bb7e494667834ba2ff39a45b27|Kshitij||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Amit.gdf : 8ca1e693f974d804261412d139005e69
+./GDF/res/Raman.gdf : 8f0cfb4f40ec62b19572e3b962c6d271
+./GDF/res/Ramesh.gdf : 77e62e37ac4eee64ec5e5355a4ee50b8
+./GDF/res/GN.gdf : 92a6252679d2c550541b0631be7fef6f
+./GDF/res/Kalpana.gdf : 446136349e14a49d26f3335524bd02fe
+./GDF/res/Sunita.gdf : bdefee8811c061630d2d76f95adbf31e
+./GDF/res/Sanjay.gdf : 9c997b22f5ccf9b41f7aeff9be3e4a5c
+./GDF/res/Pogo.gdf : 53bcc31a93394a1e8391795b65bab79d
+./GDF/res/Ashu.gdf : f028b48fcaa5de751369fa7ac33f2c19
+./GDF/res/Geeta.gdf : 81c4b6b6ae98cf05317c18e3d353a774
+./GDF/res/Shan.gdf : b9661e64896bff5d765dfa3875129888

@@ -1,0 +1,43 @@
+21 0 17
+metadata
+@Subject
+09b2dee7b603f880e97bb388491e1084|Ritu||likesToEat||FriedRice|
+4d551f8f2afa47a8b5c49bc004b5e167|Ritu||likesToEat||Kadhi|
+1f094511762cb106a0167b8a969b7c72|Ritu||likesToEat||ShahiPaneer|
+520cdb43d35097c7ce4b911ebcab2223|Ritu||likesToEat||BreadButter|
+7b79afacd5a9588c40e2e6a8215efdfb|Ritu||likesToEat||VadaPav|
+c2148f846f259146d7a9bcd68eb3cac6|Ritu||likesToEat||Pavbhaji|
+124d0951fc58fbe5213ba1fe35a62089|Ritu||likesToEat||Dosa|
+afffe307d2f3a17a1efc21c9d4429dbd|Ritu||registeredIn||DAA|
+22d42e14721428f5aafda15618ff868f|Ritu||registeredIn||CompArch|
+9c2e112aa36331bb1483b1b167c3259a|Ritu||registeredIn||PPL|
+8b977cf6dffe7eb9e7b5e4a9fefcb7fe|Ritu||registeredIn||Bio|
+b1c0781dc34f83a1484934e737330b18|Ritu||registeredIn||M3|
+fd9a2694d454d4eb7e89882c83ebceed|Ritu||registeredIn||M2|
+35149586836c0aa9f54489e46e789f31|Ritu||registeredIn||M1|
+baa5a57ad64fc0e0e158842f372dcc0c|Ritu||registeredIn||MeOW|
+afff3617502a91e0c8f4b8c431e0dfd6|Ritu||registeredIn||ES|
+64e626649ad6e6ea335d4aada2392ac4|Ritu||registeredIn||PAVA|
+ccdb84ef218e74c8c9645a41044775ba|Ritu||registeredIn||OOP|
+fee635e8218c013143a423fd97e7ea76|Ritu||registeredIn||DISCO|
+eb84a013a61df7831fa14bef494112cc|Ritu||registeredIn||POE|
+03e16ae53a8c69490ec7c1c6c7ee333d|Ritu||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Jenny.gdf : 97a75600426732f257c8a34a56970d4a
+./GDF/res/Kamlesh.gdf : f160585b31e35f8201b7340c21da01ae
+./GDF/res/Vishal.gdf : 940290e318e47262157d9faf270e2074
+./GDF/res/Kannan.gdf : b500edcb0d03813b6012f794de47096c
+./GDF/res/Raman.gdf : 3a9075c611d7468d68bec1fdaa703100
+./GDF/res/Manoj.gdf : 04a71aba9b92503a40ee3c188d4f8146
+./GDF/res/Ramesh.gdf : b4c63b04927fcf4428fb3e439d4ba838
+./GDF/res/Rohil.gdf : c3958cf37ef4ec7b12f2e9864483ac4d
+./GDF/res/Suresh.gdf : 01871c5d9f8a369ced246ead92bd235e
+./GDF/res/Mukesh.gdf : 87d8e63dbf102dbe88dcd58eb2975af8
+./GDF/res/Kalpana.gdf : 1ec9de0162935d9eff52caa371df96fe
+./GDF/res/Pogo.gdf : 132faf4f7cad54813441e88eeb986442
+./GDF/res/Nago.gdf : b6c4d640f339f19805513e1ff54d98f2
+./GDF/res/Ashu.gdf : d5e606879008ae698d4a651ef30cfb35
+./GDF/res/Geeta.gdf : d219de2fed8c6d69b64b292263df942a
+./GDF/res/Shan.gdf : 6b90c4cd77e5a136139549f38dd67a49
+./GDF/res/Ashish.gdf : 6a78f2c4a4669419873f3d991449b9e1

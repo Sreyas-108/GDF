@@ -1,0 +1,40 @@
+22 0 13
+metadata
+@Subject
+fa0248972b14b1433e801dae13ad65e5|Kapil||likesToEat||Sandwich|
+5199f7e39377a2a6c37d5dfdbcda1efd|Kapil||likesToEat||Burger|
+06315ffcb10d3277064d9dbe1d5ef22e|Kapil||likesToEat||Kadhi|
+db202d17f8a76d16a1ace822fd908ea3|Kapil||likesToEat||PaneerTikka|
+c94dec145a2cf4c2e25aa5bf9ca19c06|Kapil||likesToEat||BreadJam|
+7f41c25eeca7ccdebb2296a74b83a778|Kapil||likesToEat||VadaPav|
+f08741224b8f752850abf44737e2737e|Kapil||likesToEat||Dosa|
+bbe679d7e640bc1ee08aaf5cde67e9bc|Kapil||registeredIn||DAA|
+33599e8ee0650d1129b9bf1a003ab25c|Kapil||registeredIn||CompArch|
+d30212adc434ad8956f5d7ef80990cfa|Kapil||registeredIn||Bio|
+bbc9b84cf8c47f296fc15c402c5de21a|Kapil||registeredIn||PnS|
+3c2b3e9c2ca3035b3777839be6532f35|Kapil||registeredIn||M3|
+849c69348c46252a00bb94093402ccfa|Kapil||registeredIn||MeOW|
+5c90808f4b1dfd884488d8ac285cdbd6|Kapil||registeredIn||TRW|
+bb9cd01a8e6db1091a0a5bd5880d41ff|Kapil||registeredIn||ES|
+22ea2c5bc4fdae40757d3542842b473f|Kapil||registeredIn||OOP|
+f8474c323531623a519832e5ea5c74a5|Kapil||registeredIn||DISCO|
+f80a16429c12a242901f6804d8957e23|Kapil||registeredIn||POM|
+02cc8f37481cb5aa70c0dd2efca5aef7|Kapil||registeredIn||POE|
+a2b5ef2e91f0fbaa254290ff55295c7b|Kapil||registeredIn||DD|
+4f62bd06db182e8595ca85e1cd258fae|Kapil||registeredIn||MuP|
+e3539f8b6604a5494cdf2cb710d7a961|Kapil||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Jenny.gdf : 0b2c95ab3df408ba108a3d5dbed9b3da
+./GDF/res/Amit.gdf : 2c2ae9050d95249ca5d85df8447c8801
+./GDF/res/Sundar.gdf : 2b4fa187621bb7ef5f51c9fdc35e3466
+./GDF/res/Raman.gdf : d88f254113d9f3666b4788cfa4c4cf2a
+./GDF/res/Ramesh.gdf : 333506f48c59a6e9719d43774d1becf5
+./GDF/res/Suresh.gdf : b104492c586207c854d7c377845d5976
+./GDF/res/Mukesh.gdf : dcd3be558356d110bcea00d47ddb038d
+./GDF/res/Sanjay.gdf : cd4504e8b5f94a4aa98ab83f0c9070c9
+./GDF/res/Pogo.gdf : 0c9b7f378d2b4e8815aca818411fa0e1
+./GDF/res/Nago.gdf : 8f5abaf3673f55fa6d8eff7de008d6ad
+./GDF/res/Geeta.gdf : ebbf37f1655f9ecb2678da6ed23ab886
+./GDF/res/Shan.gdf : 04eb8137fa32fab01ae9171b0a27829d
+./GDF/res/Ashish.gdf : 1d7cf11ad0e6b9901d3798ce18941af2
