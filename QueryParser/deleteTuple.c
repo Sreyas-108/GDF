@@ -1,4 +1,4 @@
-#include "selectQuery.h"
+#include "queryEngine.h"
 
 void deleteTuple(char* subject,char* predicate,char* object){
 	FILE* ptr = fopen("./dist.gdf","r");

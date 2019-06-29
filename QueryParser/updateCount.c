@@ -1,4 +1,4 @@
-#include "selectQuery.h"
+#include "queryEngine.h"
 
 void updateCounter(char * fileName, int flag, int toDo)
 {

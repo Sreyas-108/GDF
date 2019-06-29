@@ -1,4 +1,4 @@
-#include "selectQuery.h"
+#include "queryEngine.h"
 
 int main(int argc, char ** argv)
 {
@@ -11,15 +11,7 @@ int main(int argc, char ** argv)
 
 	triples=parseQuery(inp);
 
-	/*for(int i=0;i<3;i++)
-	{
-		if(triples[i]!=NULL)
-			printf("%s\n",triples[i]);
-		else
-			printf("NULL\n");
-	}*/
 	char ** xyz=query(triples[0],triples[1],triples[2]);
-
 	int j=0;
 	while(xyz[j]!=NULL)
 	{

@@ -1,4 +1,4 @@
-#include "selectQuery.h"
+#include "queryEngine.h"
 
 char ** solveSimpleSelectQueryCase2(char* subject,char* predicate,char* object)
 {
@@ -168,7 +168,7 @@ void searchAndInsert(FILE * fp, char  key[], char ** triples, int index, int fla
 
 		if(strcmp(spl[0],key)==0)
 		{
-			if(flag==0 || (flag==1 && strcmp(lower(spl[5]),lower(flagCmp))==0))
+			if(flag==0 || (flag==1 && strcmp((spl[5]),flagCmp)==0))
 			{
 				int tmp=0;
 				for(int i=0;i<7;i++)

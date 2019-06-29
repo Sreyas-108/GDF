@@ -1,6 +1,5 @@
-#include "selectQuery.h"
-#include<fcntl.h>
-#include<sys/stat.h>
+#include "queryEngine.h"
+
 void removeLine(char* filename, char * target, int flag)
 {
 	char arr[512];
