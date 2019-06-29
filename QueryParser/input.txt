@@ -1,0 +1,4 @@
+./search "<Yash,?,?>"
+./search "<?,likesToEat,IceCream>"
+./delete "<Yash,likesToEat,IceCream>"
+./create "<Yash,likesToEat,BhelPuri>"

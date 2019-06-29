@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cp sampleData.gdf dist.gdf 
 flag=$(ls | grep "^GDF$")
 if [[ -z $flag ]]
 then
