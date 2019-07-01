@@ -1,0 +1,24 @@
+{
+  "name": "gdf",
+  "version": "1.0.0",
+  "description": "Project to store and access data in gdf format.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sreyas-108/GDF.git"
+  },
+  "author": "BITS Pilani PS-1 Team HBCSE 2019",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sreyas-108/GDF/issues"
+  },
+  "homepage": "https://github.com/Sreyas-108/GDF#readme"
+}

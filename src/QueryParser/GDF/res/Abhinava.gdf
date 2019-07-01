@@ -1,0 +1,36 @@
+20 0 11
+metadata
+@Subject
+ca7b7d8e110d1a6dc69e57d14b0ee976|Abhinava||likesToEat||Sandwich|
+86d3840b33889f1872f1cac1a85138d0|Abhinava||likesToEat||FriedRice|
+995ca920caa76a657fe251d446725f32|Abhinava||likesToEat||Biryani|
+6295e2664b721a1cfcde38b2e58d0209|Abhinava||likesToEat||ShahiPaneer|
+75c1ccea871ac855553b0a6435d614dc|Abhinava||likesToEat||BhelPuri|
+418174a6b694b1ad58790bdd0cd86c96|Abhinava||likesToEat||BreadJam|
+59d44fdbe373474725ee31ad2c8c95b5|Abhinava||likesToEat||Pavbhaji|
+be1782b22a2ba730e8b4656c410d4413|Abhinava||likesToEat||Dosa|
+8bb274437dae9e07fdd88dde0988d87f|Abhinava||registeredIn||PPL|
+264d58de89f70f9718597a83e209c1f1|Abhinava||registeredIn||PnS|
+650da0dd1583a8390cf40dd68a6dda7d|Abhinava||registeredIn||M3|
+0b2da4803cfed4cbea49081a6b1db246|Abhinava||registeredIn||M1|
+9f680d600f38560be7ee5147113e6484|Abhinava||registeredIn||Thermo|
+2593ad9a8fc5f57e180d999d6f901e99|Abhinava||registeredIn||CP|
+2b25c57e874ec7152d51ea40dbc48ec0|Abhinava||registeredIn||DISCO|
+c6646cf9dd2e3fcc2fe7b6bc1956a9d0|Abhinava||registeredIn||POM|
+7bf24ad0460668522b995e4ba0297026|Abhinava||registeredIn||POE|
+8c8054963e0c5e083207da66e00e8323|Abhinava||registeredIn||DD|
+10454679c913d47acfbc733b9b794187|Abhinava||registeredIn||DBS|
+9647e4dfebe9fafaef8f0d0b226aa461|Abhinava||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Vishal.gdf : 4b95433c7299fadd986b7f405efa66f3
+./GDF/res/Raman.gdf : 0acfd328aa07d5e4255e29a03992165e
+./GDF/res/Manoj.gdf : 4d41ea0f4e1bdb69bd864e5b73747e9e
+./GDF/res/Ramesh.gdf : 9d3f7329f3f895cabc120fb834a6533a
+./GDF/res/Suresh.gdf : f167b56745f5236434a96ba82371f909
+./GDF/res/GN.gdf : 39ff00cf6f5b340a9405d3facbc85d79
+./GDF/res/Sanjay.gdf : afbd1f1109828585ca1733b1ab39391a
+./GDF/res/Pogo.gdf : 508ed1a733a88f7f3dffd80413066636
+./GDF/res/Nago.gdf : 1733c21ee57a84bc66ab57aff6ac1619
+./GDF/res/Geeta.gdf : 69d6bfee9bdceeae1c76fa8b3f42133f
+./GDF/res/Ashish.gdf : 964e5c90aba038f41496011e8e4c5023

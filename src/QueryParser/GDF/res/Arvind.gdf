@@ -1,0 +1,30 @@
+12 0 13
+metadata
+@Subject
+2fd9e604d300d351c62abcd966c41c41|Arvind||likesToEat||Sandwich|
+36310a1fe171574ed75555fed599e6cc|Arvind||likesToEat||FriedRice|
+cf15720a864cea9d144d430ee7c54858|Arvind||likesToEat||PaneerTikka|
+9420f6404de866e6274599dada791882|Arvind||likesToEat||BreadJam|
+5e6b05f38a4b585050f4181aacdee3bf|Arvind||registeredIn||DAA|
+1672f5e0f8fb0c33eb1d5307a32bad0f|Arvind||registeredIn||CompArch|
+d44d26e57ebfce6d26e05b1ffaba51f5|Arvind||registeredIn||Bio|
+6492c59630c3a905c0f37fc51fbb0872|Arvind||registeredIn||TRW|
+e687b313b825bbed96bbf368015f5d4b|Arvind||registeredIn||ES|
+7b9268110e4f2c7ead58590f5a563fde|Arvind||registeredIn||DISCO|
+d51aea177907251d68fc004438e121c0|Arvind||registeredIn||POM|
+9ba74979f33874bb78552fffb6fdf37b|Arvind||registeredIn||POE|
+@Predicate
+@Object
+./GDF/res/Kamlesh.gdf : ccf60909a87bd626fbfa458b3f68173c
+./GDF/res/Amit.gdf : abc710134d9947033b743a59314414f9
+./GDF/res/Vishal.gdf : 4e420a72990ad4f82be8b1c36833c3e9
+./GDF/res/Sundar.gdf : b6048556774d929b6cb53f0ec1652a62
+./GDF/res/Manoj.gdf : 8c3dfd175fdad6663676119451a83974
+./GDF/res/Ramesh.gdf : a918d1fd712d628be05751719f465537
+./GDF/res/Kalpana.gdf : 1d6b948640c71162bd3b2b43a1f7e171
+./GDF/res/Sunita.gdf : 4867924babea3e74e432b8f516d5205e
+./GDF/res/Sanjay.gdf : 71f58d9bfbb65d27a2a7499ac0ea6f28
+./GDF/res/Pogo.gdf : f7529e01c3d61c2d3857fc11ec75956b
+./GDF/res/Nago.gdf : 03e1f5dd14dc1dd98a13796e22655467
+./GDF/res/Geeta.gdf : dfd64e99bb7168741cc3c5fa3117df72
+./GDF/res/Shan.gdf : 7a37f2c6d56a6189c675953027bf343e

@@ -1,0 +1,31 @@
+18 0 8
+metadata
+@Subject
+b65d367c996a7f0786b99af708735056|Rachit||likesToEat||Sandwich|
+cf50068e4110edef96cf1957f5df3b90|Rachit||likesToEat||Pizza|
+e29a76e4f3a03d958866d18eebe815b1|Rachit||likesToEat||Biryani|
+2add8c2f6fe086c08de1536ed52448de|Rachit||likesToEat||Kadhi|
+fabf8564182607f7ae36ae636d203f66|Rachit||likesToEat||BreadJam|
+badc949774402ac383e154aa995f976c|Rachit||likesToEat||BreadButter|
+aead5f471d902b8aa03780dc55149f3d|Rachit||likesToEat||VadaPav|
+887ed784eadac25be67872d68b37b661|Rachit||likesToEat||Pavbhaji|
+b178d1d929f4f7d2630bbed889da7573|Rachit||registeredIn||PPL|
+f4f83460d690c7f6241ca17c18fd34f8|Rachit||registeredIn||M3|
+2910d8520567e2a881d54bb31b40fe29|Rachit||registeredIn||M2|
+655f85c838598cfd768fcf07bb5a57bf|Rachit||registeredIn||M1|
+f128e7faa788d5b2a32363e881ec2c6c|Rachit||registeredIn||MeOW|
+4c73fc67746fd34e525824810a49861e|Rachit||registeredIn||ES|
+f91b08728b0dcf7fdd634376687dcc4e|Rachit||registeredIn||PAVA|
+aabaf34c8c649aadc7e1cedaf3045c33|Rachit||registeredIn||DISCO|
+ba003847bc6f80de566e721c5cec73f5|Rachit||registeredIn||POM|
+25bdd0aea478e29776510b8d85e464b2|Rachit||registeredIn||MuP|
+@Predicate
+@Object
+./GDF/res/Sundar.gdf : 51ad27ab10395b609ea56007ed16e406
+./GDF/res/Mukesh.gdf : 1520f5246e2ba3e0a6d653ed610fe023
+./GDF/res/Kalpana.gdf : ee6e7e7541a028fc671e1d5723cece4f
+./GDF/res/Sunita.gdf : 028dc56adab8382ad41e41367d85a459
+./GDF/res/Ashu.gdf : 8ca0b8595651d66f89cb2d8b8d939364
+./GDF/res/Geeta.gdf : 6f981e4eae506977b683e8bed85f9130
+./GDF/res/Shan.gdf : 168ad847528d70c0f0bed06f2c395760
+./GDF/res/Ashish.gdf : 781f1a682b3684036e151474e25af82a

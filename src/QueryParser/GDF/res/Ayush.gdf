@@ -1,0 +1,29 @@
+15 0 9
+metadata
+@Subject
+f666d12ca002225451184bc31aab3c8e|Ayush||likesToEat||Biryani|
+31fff0f1387eebaf2e14d2012dd9c686|Ayush||likesToEat||ShahiPaneer|
+987e5c858c63d5295e951a95ac4083f9|Ayush||likesToEat||PaneerTikka|
+6e8f582e5900718f5ee0c8b3d043a80b|Ayush||registeredIn||DAA|
+6db7d01d856a3fdd408efa982a02e97a|Ayush||registeredIn||CompArch|
+bd65db386028c9c6269265496e8b8181|Ayush||registeredIn||Bio|
+d8f8d984cf978e2b9f1f5191ebbd4f6a|Ayush||registeredIn||M3|
+a7b3f0c630aa258d7f045cfcda90886b|Ayush||registeredIn||MeOW|
+d8241042e950168402a5cbced0994224|Ayush||registeredIn||TRW|
+d3ddfbdcc3867f994d8f33468be37227|Ayush||registeredIn||ES|
+d29e9cb9fb7fdb03ebbbab1ec26dbe04|Ayush||registeredIn||CP|
+ba5c0f2c190018bda8a14f9bab0ccf97|Ayush||registeredIn||OOP|
+8ed705201cab869b6422f3e5260b0393|Ayush||registeredIn||DISCO|
+35c16af5ea2026f667de9687d58a8439|Ayush||registeredIn||POE|
+12e6b78443c5a8531889b8ca5831f041|Ayush||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Jenny.gdf : 977d06a9d11d1733bdf058050188b620
+./GDF/res/Amit.gdf : 46ab6f3edd11bfa680644e1e5db7b907
+./GDF/res/Kannan.gdf : c2e7f26a07df5af51eb8f1082919d3b5
+./GDF/res/Suresh.gdf : 3c2fa9148ffa4ecbf6f8848bcdeaef76
+./GDF/res/Mukesh.gdf : a15cc76d1a99fae84e2cf1101559e501
+./GDF/res/Kalpana.gdf : 1b67e54d917aa79c558e1111e5993642
+./GDF/res/Ashu.gdf : 749027c718264f6bbab085ec7870cfb8
+./GDF/res/Geeta.gdf : 87065a3b28cb386f121df8d37b41c542
+./GDF/res/Shan.gdf : f1d4d47f8bc39de40923ccb8c06e6025

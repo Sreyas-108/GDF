@@ -1,0 +1,37 @@
+20 0 12
+metadata
+@Subject
+b7f10651828a2e813a9b1779b193ba38|Swadesh||likesToEat||Burger|
+c951173ff8d1334bc76a3cc83fd93b8c|Swadesh||likesToEat||Pizza|
+5f8f58a2acfe45933485a05dfd936d40|Swadesh||likesToEat||Biryani|
+ab5ca4b39cafa5ef908bbf862564f75e|Swadesh||likesToEat||PaneerTikka|
+60ea7902074eaa1bb823865b9adbc39f|Swadesh||likesToEat||BhelPuri|
+d43ca0b93aa2337d18f7309d99fc49e6|Swadesh||likesToEat||BreadJam|
+f04407e5937a9b8a8d4e1e788abf0d45|Swadesh||likesToEat||BreadButter|
+a80a5cf227aa278da5d88a2816bb98fa|Swadesh||likesToEat||AlooParatha|
+5674c2d6e1c471e49a592df2812a7666|Swadesh||likesToEat||Dosa|
+68df60d4d3fb70dfe34416b1a9457323|Swadesh||registeredIn||PPL|
+4be97a36b2e00e8411f0784096edc03b|Swadesh||registeredIn||PnS|
+9e0ced1c0b2b78786e78a9c0a4bf7421|Swadesh||registeredIn||M2|
+b1d73e0547817616cd860d7464a0c3b5|Swadesh||registeredIn||MeOW|
+7b7435ffc03de5f13ae367f603a761bb|Swadesh||registeredIn||ES|
+80a42c7b1c5ac4f64adc72d4f2d04a53|Swadesh||registeredIn||CP|
+8603a34d84f126a1d08c52f67a84097e|Swadesh||registeredIn||POM|
+ab24bf755782e61a4fca96a8311a6b6c|Swadesh||registeredIn||POE|
+6ff0770b57680ef4380268b0f6ba216b|Swadesh||registeredIn||DD|
+89f08d1519f9171d270f942a19708f74|Swadesh||registeredIn||MuP|
+e70705c828d94750acde673a2a6033bb|Swadesh||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Jenny.gdf : c2a399e13af9dbadc41b7b967a1deb95
+./GDF/res/Kamlesh.gdf : d2a506cb07ffdb445abfae90033e461d
+./GDF/res/Amit.gdf : 33ddb45a21a5d73202dc9da7eae0f88f
+./GDF/res/Sundar.gdf : 47c1bb0bfd5dc816856c39d6cbc32d97
+./GDF/res/Kannan.gdf : 881056142a748faa007153e5b5b2a2c5
+./GDF/res/Raman.gdf : 8f976b77fda6224a7fcf270f2b2771cf
+./GDF/res/Ramesh.gdf : 365926355bbd7daf8167c256787edf35
+./GDF/res/Rohil.gdf : 1dec30b978b9b2e680429832399f5229
+./GDF/res/Suresh.gdf : 6686eba453de3f846e27facdb0f1049b
+./GDF/res/Sanjay.gdf : 36764badb4f4a1053ad390b8716a1b8e
+./GDF/res/Geeta.gdf : 5381866fc145e96a9745148ad4f9fdf7
+./GDF/res/Ashish.gdf : e7afc19d587c0f150fc8a17f53a435ea

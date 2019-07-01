@@ -1,0 +1,28 @@
+12 0 11
+metadata
+@Subject
+767e8f19aaa376f4e4f5ac1382392c80|Saksham||likesToEat||Sandwich|
+0694e5c07daa733a6e46d4672ca57c12|Saksham||likesToEat||Pizza|
+d877b7b7afed61fe652f02194a55cf4a|Saksham||likesToEat||BreadButter|
+1d553bbd2882db695b5f2f1e2b324c44|Saksham||likesToEat||VadaPav|
+0c46a99f834e57aacaacb4517e4f7f82|Saksham||likesToEat||Dosa|
+668a3e93dd5b9d9447036090328eb7d2|Saksham||registeredIn||CompArch|
+da3f8886df100525d4ed9105025d4384|Saksham||registeredIn||PnS|
+3abe777070ceb72bcab6c3fe378c4068|Saksham||registeredIn||M1|
+bc3652a5f7cecd1b528f294ca172745f|Saksham||registeredIn||ES|
+ac9f9c9626237ede8625de3c75cf4436|Saksham||registeredIn||CP|
+94d804a81b848eec8722959819067bb1|Saksham||registeredIn||PAVA|
+c92d2f0033870ac97d328c84519fc312|Saksham||registeredIn||OOP|
+@Predicate
+@Object
+./GDF/res/Amit.gdf : 50a9cd4b4e9717d7bd240bc12e32cd06
+./GDF/res/Vishal.gdf : d6380761352f46ef6941012fd5c55cfe
+./GDF/res/Sundar.gdf : 860eeaf03fe163757061bed35f1f6413
+./GDF/res/Ramesh.gdf : 68130783c988e98186f5e672bfddba06
+./GDF/res/Rohil.gdf : d5bbe4d5db5b282ac96bd1ad0094b55f
+./GDF/res/Kalpana.gdf : fb42390f184cc24929a607e7df33cb47
+./GDF/res/Sunita.gdf : e0131ee83dc9bb96e688ab80c2b0aacf
+./GDF/res/Pogo.gdf : 9c6c1b52ba0e4112b6324dd92ea34407
+./GDF/res/Ashu.gdf : 120fd1d9e9487aa2c9a3dc2a33cb5da2
+./GDF/res/Geeta.gdf : cf85b1cb08a4835b3006e74fd9919c89
+./GDF/res/Ashish.gdf : b523f9a6d79379efad1946c69fefde34

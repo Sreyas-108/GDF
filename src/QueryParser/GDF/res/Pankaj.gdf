@@ -1,0 +1,36 @@
+21 0 10
+metadata
+@Subject
+6a3e0a55df6338d2628fc4a7eea498e6|Pankaj||likesToEat||Burger|
+29b68ab5b83e949b216a2b2937171f46|Pankaj||likesToEat||FriedRice|
+24e0e28c87cb4018c556e2d77c642348|Pankaj||likesToEat||PaneerTikka|
+e82de18d2d90074deb2414a40237382b|Pankaj||likesToEat||BreadJam|
+b895d55848d65ac54e235baa2f4ebb1a|Pankaj||likesToEat||Pavbhaji|
+56f627287a5c4b38d81a9da36fd9a6f9|Pankaj||registeredIn||DAA|
+4610f3a3c64e58a7e2dad377844cabff|Pankaj||registeredIn||CompArch|
+5ad1c40746025580f2f72f6871ac3c2b|Pankaj||registeredIn||Bio|
+ef50f1ecb54295594ab03a948a5d5667|Pankaj||registeredIn||PnS|
+0cfad232239aa1b43763b7d76e023193|Pankaj||registeredIn||M1|
+d639a01e0dbe06ef4ccf3aecb8787ccd|Pankaj||registeredIn||MeOW|
+76fe23870c631585ae459f309bdcc328|Pankaj||registeredIn||TRW|
+a26adb1fc7c5a7c5275cd5e60e84ef67|Pankaj||registeredIn||ES|
+27b9748d37ded1bcfb7e3ada53473d91|Pankaj||registeredIn||CP|
+d1a8a2bedf4a183168c2c27d510140c5|Pankaj||registeredIn||PAVA|
+398980acbffe5e071ed30176d0df395d|Pankaj||registeredIn||DISCO|
+1c87a2539bd6d5f8f6032b8e6685f06e|Pankaj||registeredIn||POM|
+47298487dd84f739776d99b30c2e7be9|Pankaj||registeredIn||POE|
+9332557fd9ba7f2b42a3d3f66df190b7|Pankaj||registeredIn||DD|
+31032097758fe25fa578ca68686e5606|Pankaj||registeredIn||DBS|
+5186ae68f6d5998bcfd1ffd456d4d886|Pankaj||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Sundar.gdf : 172001a289409a338bba2a07d7aa7d83
+./GDF/res/Kannan.gdf : e002163f4c5b45c9535ef462f44f45b4
+./GDF/res/Manoj.gdf : 4a6c334829b587cf8dba08011bb5ee83
+./GDF/res/Suresh.gdf : f2f778edd47d98fcb48af4e5cef82ca3
+./GDF/res/Mukesh.gdf : 16371977b681fa7697f878ce6cfb0da2
+./GDF/res/Kalpana.gdf : 6a999fb2206baf9f7cd929e927174a75
+./GDF/res/Sunita.gdf : d89cce0530f6bcc5dfc020c8fe39692b
+./GDF/res/Pogo.gdf : f9a5eebee564ed8cf30aaf0e24ceba5f
+./GDF/res/Geeta.gdf : b84a4a1bd490d5d0af5e4c173c598d43
+./GDF/res/Ashish.gdf : d16625327e12b932cf1351f15a32b62b

@@ -1,0 +1,31 @@
+15 0 11
+metadata
+@Subject
+4a3e4bcfe45f6ce1f2d085f5079fd5b7|Ravi||likesToEat||Sandwich|
+b84561bfeff601c4d3221d9897466a7e|Ravi||likesToEat||Burger|
+c5ced774da93f79f9b1b0ca13fdd1662|Ravi||likesToEat||Biryani|
+a003104967ac3f29f99d1aaa42ae62fb|Ravi||likesToEat||PaneerTikka|
+051dfde293e1f53bb9ec365542e02293|Ravi||likesToEat||BhelPuri|
+80ae89450c45118c58bc762417a8ce7f|Ravi||likesToEat||BreadJam|
+8e94cbc2d252839f3452599de96e083d|Ravi||likesToEat||VadaPav|
+ffe5cc25e4cfebdf450dda2d7afc9a65|Ravi||likesToEat||Pavbhaji|
+da5f0790bc4ede6532adec3a5ccc7103|Ravi||registeredIn||DAA|
+7aeadad0074dfafd0eff3ae2807940f6|Ravi||registeredIn||CompArch|
+88ff20a31f42aa864a8e4169cb0ecafc|Ravi||registeredIn||M3|
+e71d3e81d43b64f2da2cb31fd53040fd|Ravi||registeredIn||DISCO|
+24c424c4fd891cda59a93d9abf26438f|Ravi||registeredIn||POM|
+9259714f573966f2737ebb0288cc9a80|Ravi||registeredIn||POE|
+7c6f3c43a69a05417f6ab353b838792d|Ravi||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Amit.gdf : 761abf3bac2b78be19815a8aa6eb5757
+./GDF/res/Vishal.gdf : 4070995ed7621bedb7f3b536435a999c
+./GDF/res/Sundar.gdf : 81104e5027f26cd3155c37d59bf55b6d
+./GDF/res/Raman.gdf : 29caaa956cde5c0303d7cb98fb6738fb
+./GDF/res/Manoj.gdf : 304de06f7104178193db2e7437a20fe2
+./GDF/res/Ramesh.gdf : e09c25bfb2c033f5ef7d08cdce297425
+./GDF/res/Rohil.gdf : 76c0ffc5eca26cb819d256cbd75c2354
+./GDF/res/Kalpana.gdf : 974c3138610c5e16c4940dfef28ef9cd
+./GDF/res/Sunita.gdf : 2bb38b99267b34657ef4c912378f6676
+./GDF/res/Pogo.gdf : dbb6d967b3434ef92c67bd667b91fb22
+./GDF/res/Geeta.gdf : 743588fdedf2f6d2a79fb706536421ea

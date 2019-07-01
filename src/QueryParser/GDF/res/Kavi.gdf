@@ -1,0 +1,38 @@
+21 0 12
+metadata
+@Subject
+75cefc6fdf77f20204f0eca2967b0279|Kavi||likesToEat||Sandwich|
+f0efffa618ee9cf617914b3afcaba800|Kavi||likesToEat||Burger|
+55c278d38dca9bfa9c617e24f53c8282|Kavi||likesToEat||FriedRice|
+2ee95d79807cf524a13b354ba520b492|Kavi||likesToEat||Biryani|
+18d74868acc23a9ad364711c959d347d|Kavi||likesToEat||Kadhi|
+71ce9024e53744f9ec1308ac376d3ae0|Kavi||likesToEat||ShahiPaneer|
+2276ec9a6e6d64201c95fac137bcd311|Kavi||likesToEat||PaneerTikka|
+09581c77bb178b63b7a01d2c87e92640|Kavi||likesToEat||BreadButter|
+5802a1b7ebd297e5cdf1599381a9ab98|Kavi||likesToEat||Pavbhaji|
+f66b7804102dffe6d68228fede0eda35|Kavi||registeredIn||CompArch|
+a32f66b73c403e258719b6f987c2b8e0|Kavi||registeredIn||PPL|
+ff18c3ff4b780655ccf28a658ea5bc0b|Kavi||registeredIn||Bio|
+e4761e10513ea70d23f873e368f48051|Kavi||registeredIn||M3|
+d7acbd8c054812d7580510b47844a4f0|Kavi||registeredIn||M1|
+85ad38dc64aad481b621d26e01e4c391|Kavi||registeredIn||PAVA|
+189e33ae6be83d3197719eea240d1807|Kavi||registeredIn||OOP|
+19244f8957415b194bb859eb7c7a9db2|Kavi||registeredIn||DISCO|
+944e5360386c5d12e35542cc97642e8c|Kavi||registeredIn||POE|
+ab9cedb2c1b3a6c4b50bd96d1138172b|Kavi||registeredIn||DD|
+f9d435e7e37024c2dee6929fd5c711a8|Kavi||registeredIn||MuP|
+677cd28cbc5a9db2da371fd79487a2aa|Kavi||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Kamlesh.gdf : 97c3260f1c1741535a5cf5810e379d16
+./GDF/res/Sundar.gdf : a60e1064db6d9ad6856b0798930ec07b
+./GDF/res/Kannan.gdf : 243ee38a88a7c954d870cddd857bbda3
+./GDF/res/Suresh.gdf : 8239c72231bfe810a6fd3b90c61f5ed3
+./GDF/res/Mukesh.gdf : 3568556b80f1d32f17dc2ac08f786103
+./GDF/res/Kalpana.gdf : 0a3818184d20f265cd02d03b1a01a81f
+./GDF/res/Sunita.gdf : 96060e5b19b05ac97fabaf7b750b73c9
+./GDF/res/Pogo.gdf : 122979b0467e59e9df64ffb302c3013e
+./GDF/res/Nago.gdf : 2dccaca6a566d89809aef3e7b6d6e543
+./GDF/res/Ashu.gdf : d2e8a41a46a204196c96f36ac5a0e908
+./GDF/res/Shan.gdf : b5a33f6ea8d681ac90cb45eca011af13
+./GDF/res/Ashish.gdf : a300162b90fe16c769bb3067a5354a89

@@ -1,0 +1,34 @@
+18 0 11
+metadata
+@Subject
+8bf8c5cdafb0358dd95ec96c2479ebce|Suyash||likesToEat||FriedRice|
+a6c8c98b4f7aab7319051b69b1905690|Suyash||likesToEat||Biryani|
+cf75a207ff5e923744dc60cecfb0da04|Suyash||likesToEat||ShahiPaneer|
+3812c1c860901961bc9c948becd02564|Suyash||likesToEat||BhelPuri|
+ce79a1aaa1e719367c06ca85a75ac9a7|Suyash||likesToEat||BreadJam|
+45337653b66dcf1ea112abb1357b0843|Suyash||likesToEat||BreadButter|
+597b8df3225cc86431a43de45899085e|Suyash||likesToEat||Pavbhaji|
+60da9e10eba5b307d75911a4abb6ea83|Suyash||registeredIn||PnS|
+6347be60e73317f8bde57591e0805215|Suyash||registeredIn||M1|
+0ccdb8b41ba387b7ab0764306b5240d8|Suyash||registeredIn||MeOW|
+5f9c20fd875402fabe72e3eebf85ed68|Suyash||registeredIn||ES|
+d7397576477c56096d5024b6ae4ac119|Suyash||registeredIn||CP|
+855a42763a1b80ae6ada12d910aecc9f|Suyash||registeredIn||PAVA|
+c836b60cff014e1069825818e004ca64|Suyash||registeredIn||OOP|
+25be3e0181b447303522d8af97479263|Suyash||registeredIn||POM|
+7f4a503a86d4037fc2643fd2db9de80a|Suyash||registeredIn||POE|
+a97ac9831cb5ef47f1ab072bc6824b1a|Suyash||registeredIn||MuP|
+2ae5022cf9a7a8712e4567d435e34705|Suyash||registeredIn||DBS|
+@Predicate
+@Object
+./GDF/res/Kamlesh.gdf : 011bd3fb7b225c47a625f04c42f972af
+./GDF/res/Amit.gdf : 3b4b7df8d30956155f0cacbf6456c5c9
+./GDF/res/Vishal.gdf : 0d0d2d15edd5882abdb4d73b2a00c5d3
+./GDF/res/Sundar.gdf : 30846c73d7feac6501d05b985772515a
+./GDF/res/Manoj.gdf : 23670f82291aac21623a48975db1f6c3
+./GDF/res/Suresh.gdf : 39826f9f80edfaa69162370193060846
+./GDF/res/Mukesh.gdf : 736f4ac081a2ebf62bec3cfeb4697ab2
+./GDF/res/Kalpana.gdf : 63ad1bd44c338c9e2afd85c4f5af1174
+./GDF/res/Ashu.gdf : 96d1d7aaa339a6f3e52d5c051fde6d6b
+./GDF/res/Geeta.gdf : 7aff9befd29e2ad030790683c623e4bf
+./GDF/res/Ashish.gdf : 5d7f68887730981369a6fc2f1ecf5054

@@ -1,0 +1,44 @@
+24 0 15
+metadata
+@Subject
+bc963f78883b2fff9fc5433583c28e18|Shivam||likesToEat||Sandwich|
+62be342741df7982f7eb69de0e6372b4|Shivam||likesToEat||Burger|
+c447ee0577d7240c44e415d8c2fea6ad|Shivam||likesToEat||Biryani|
+796fe2e514a6436d389b87fd504c17c7|Shivam||likesToEat||Kadhi|
+4e362c18427fc4612cf7fd5cfd38e8c5|Shivam||likesToEat||ShahiPaneer|
+6fb8a5d9ceb5a9115b53e3fed5c15f17|Shivam||likesToEat||BhelPuri|
+46478d731ecc5a7e982810cd20a6a0a5|Shivam||likesToEat||BreadButter|
+011f6c48729cca6df12787a92375414f|Shivam||likesToEat||AlooParatha|
+29219d0d427d4f0cfe2a323686d70ec9|Shivam||likesToEat||Pavbhaji|
+2b9ca9e2b96c03d2c75197763c698d8a|Shivam||likesToEat||Dosa|
+2e01f4ff60ed8f77f11b4b1247ef9726|Shivam||registeredIn||DAA|
+98128ec3c416b78a335776ab0b296020|Shivam||registeredIn||PPL|
+f47cdec453514f03c0ad0aa762a082d9|Shivam||registeredIn||Bio|
+ef798e67f82bc0fb6c9181dcaf66d0f4|Shivam||registeredIn||M2|
+075452c861487de747fbd8d61de7dc3a|Shivam||registeredIn||M1|
+a559ff1fd265cfce46b1c04c48811a22|Shivam||registeredIn||ES|
+8ff4918b3415aff097baaf5dcf499154|Shivam||registeredIn||CP|
+e0f62bc1f0534fa5e72e3801732e4321|Shivam||registeredIn||PAVA|
+6274c5d2dcba478cf851d8900fd4b38c|Shivam||registeredIn||OOP|
+995df18615560b4a3d7786aa8a1f9726|Shivam||registeredIn||DISCO|
+9527e959200a88900454d1d33ef5dcc9|Shivam||registeredIn||POE|
+ab4153dba54b843fd7e24d7f3cf3bf12|Shivam||registeredIn||DD|
+21df974dc2cdca26c3c7aa88096396c3|Shivam||registeredIn||MuP|
+3347ed5041d47b630e7de5483b47b895|Shivam||registeredIn||DBS|
+@Predicate
+@Object
+./GDF/res/Jenny.gdf : da1f0caedd76493a158b52c3d93fc5a6
+./GDF/res/Kamlesh.gdf : 848db02f22f78b5575840cccaecdd249
+./GDF/res/Amit.gdf : c39b5e7482c1676b31fdf7b629d5f394
+./GDF/res/Vishal.gdf : e74c633da4cf6ba6759b9106308fd7cc
+./GDF/res/Sundar.gdf : cddd9b49dbbb8fce696a893514e818de
+./GDF/res/Kannan.gdf : edafc1833ba7ec4a26b47a2ba33e88ab
+./GDF/res/Ramesh.gdf : e980808a99803214a175916b52693402
+./GDF/res/Rohil.gdf : 5c537ae69124e0f42bf8301544eba431
+./GDF/res/Suresh.gdf : 483311eae1a4a5bf484a4f9bf483a6f6
+./GDF/res/Mukesh.gdf : fb582b3db3340fee5480c13f13392d58
+./GDF/res/GN.gdf : 7cd12101b2cec5b7a146f301424b94f6
+./GDF/res/Sunita.gdf : 186fa3f8cea726c314c81fd2b4d9ef81
+./GDF/res/Sanjay.gdf : 579247b4eb51fef3c62025fa8fa6f83d
+./GDF/res/Pogo.gdf : a3143537c6afe17ed3cfc4495658ae13
+./GDF/res/Geeta.gdf : 2bb5eedbb3f003b2c7befaae15c00db1

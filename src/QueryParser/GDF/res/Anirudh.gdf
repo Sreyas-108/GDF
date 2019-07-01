@@ -1,0 +1,32 @@
+16 0 11
+metadata
+@Subject
+4b42e71be89fc2d71590925d68381982|Anirudh||likesToEat||Pizza|
+4ae2ede5520d78bb6f68753b885c4347|Anirudh||likesToEat||Biryani|
+75cd2c2190d506c82106232134d8fd19|Anirudh||likesToEat||Kadhi|
+d166de22aef50d0b6dedf2b4612dc732|Anirudh||likesToEat||AlooParatha|
+2a37135a52e060e9996c3aaa9ed11141|Anirudh||likesToEat||Dosa|
+66d98fafca11eaf36aa302e803ba0e87|Anirudh||registeredIn||DAA|
+cbabc38f8afc8b9368c2f26e52cda56e|Anirudh||registeredIn||CompArch|
+d73ba8fd36e706932f3620e9bc2c2160|Anirudh||registeredIn||PPL|
+f892bf22c3bc2318e278f00dd1cc9743|Anirudh||registeredIn||PnS|
+b88fde54a314ad1e84d0f9c87141e254|Anirudh||registeredIn||M2|
+bac4a6b7901e234fe82abef1915dc33e|Anirudh||registeredIn||M1|
+a133eb1be3b3b73d168fc9287d478fe3|Anirudh||registeredIn||MeOW|
+cfa6590014ca1c8f0ce2728c96dd8f5c|Anirudh||registeredIn||OOP|
+200a43f6a2747d5ad6ab9dd6a419c7d3|Anirudh||registeredIn||DISCO|
+7c0e7664f4e76a818c8f260a43079fb0|Anirudh||registeredIn||DD|
+c8fd18b9deb5af2b7384cb9605190c15|Anirudh||registeredIn||DBS|
+@Predicate
+@Object
+./GDF/res/Jenny.gdf : fe3c07b39bb7446dc3fa3a5e115ca015
+./GDF/res/Amit.gdf : 210774e0d562e9c5e5240a044116ffa0
+./GDF/res/Vishal.gdf : f9ed26783c8bb8cea9932b2e92a12ac9
+./GDF/res/Raman.gdf : ea8274760ff3627a5145465e21dba2b3
+./GDF/res/Manoj.gdf : 5e3993df6114eb8ca4156ecdc81488dd
+./GDF/res/Suresh.gdf : 6b5d03ad245991c45f7b7a0e6a85cb37
+./GDF/res/Mukesh.gdf : ec4d90bdd13338d40044dcc3b77ccdce
+./GDF/res/GN.gdf : 6fef764a643851614561904bfcf69caa
+./GDF/res/Pogo.gdf : 988cb631a311a4b5fdc312a2e07c5f92
+./GDF/res/Nago.gdf : 77afa5270c8a917d8f70d8240fbb0c48
+./GDF/res/Ashish.gdf : c710355affe02d49c1f5554e8cad70d3

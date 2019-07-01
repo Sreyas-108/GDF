@@ -1,0 +1,33 @@
+16 0 12
+metadata
+@Subject
+6b18d75dfa65edbb1e636e324da8c28c|Sargun||likesToEat||Sandwich|
+9654608b0b453f0269d1ab6a9ff59517|Sargun||likesToEat||Burger|
+6a30c695cbb31d3274bffccb3585a898|Sargun||likesToEat||Pizza|
+75e2d748b352b203b0ca197bad4ee561|Sargun||likesToEat||FriedRice|
+becc9730bee0784f22a5bfc667f46947|Sargun||likesToEat||PaneerTikka|
+76d81b48533e8a7f6db7b7c5dfd739bf|Sargun||likesToEat||AlooParatha|
+76706fd049a842c81ce15f3f5708ab91|Sargun||likesToEat||Pavbhaji|
+b0c9c0bf9f2e103fbb5fca84a19d14fe|Sargun||likesToEat||Dosa|
+56ecdf234742a443513d30a0fa70032a|Sargun||registeredIn||M2|
+4e16cb2f1fe0f883dc5737f044405e9e|Sargun||registeredIn||Thermo|
+7199fa11cc28baf44d948a81689a3717|Sargun||registeredIn||MeOW|
+91b16b21c7affe5c19ec499b0e85e013|Sargun||registeredIn||PAVA|
+2cdd4908ce6fc173da5e14f528d83094|Sargun||registeredIn||DISCO|
+79af7e4620009115d3a974eff4e0d53f|Sargun||registeredIn||POM|
+6f26596a308ca3217b6b4b6b00580b4d|Sargun||registeredIn||POE|
+25d5415d27825c444f0b6930001308e4|Sargun||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Jenny.gdf : da14b3e11e7621846e493db4bea4ae64
+./GDF/res/Sundar.gdf : cafc5d39a81c9ffd551ea6e0ad64a7d9
+./GDF/res/Kannan.gdf : 0de1574ac1f3f723ba191726f18c87ff
+./GDF/res/Raman.gdf : b20903949fb2388a864888f91817018a
+./GDF/res/Manoj.gdf : bade62e3b5316a00af58908416780460
+./GDF/res/Suresh.gdf : 0f6888f278a35f6c91bb9cd1b7bef1ef
+./GDF/res/Kalpana.gdf : 70fcf8c36984a7172a00d6a8ad5921f3
+./GDF/res/Sanjay.gdf : d0503df932322626968d6bc48aa85c74
+./GDF/res/Pogo.gdf : 0e604346fad63a5cf05e39f22b04e027
+./GDF/res/Nago.gdf : 5da6944751e04a2cf66b916cb029d4fb
+./GDF/res/Geeta.gdf : a06b36d67637b742c4d5278470de97a6
+./GDF/res/Shan.gdf : 1a1c1bbcd5f6b71e281ee927fce76ac5

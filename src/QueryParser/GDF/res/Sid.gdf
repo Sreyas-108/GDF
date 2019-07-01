@@ -1,0 +1,27 @@
+13 0 9
+metadata
+@Subject
+7b3ac4bc4507d135e47f2b3f25495381|Sid||likesToEat||Burger|
+66a23b018beabc65ab4801bfe2a79547|Sid||likesToEat||FriedRice|
+fb60b3184f60a3828b4bcbf440bbabd2|Sid||likesToEat||Biryani|
+4b27b9d0dedd001624de552d93e606ec|Sid||likesToEat||Kadhi|
+57ea0929bd457d1a0dfbef73569c263c|Sid||likesToEat||BreadJam|
+aff9a64993229456634a04bdb6193617|Sid||likesToEat||BreadButter|
+e0b4542c9e8ad3b6adfc9c3b6b73b8d6|Sid||likesToEat||Pavbhaji|
+801513fc332f2b228e2b083ce88a8aca|Sid||likesToEat||Dosa|
+f4ceefab65a1e952ae5dc234c2e1415c|Sid||registeredIn||DAA|
+4965094528f1a67a05b0193ff562e51d|Sid||registeredIn||CompArch|
+eec5420b276376703671a4163ef5a507|Sid||registeredIn||M1|
+dde8467116bda3062be466c4b21d316f|Sid||registeredIn||MuP|
+8314e576d07d45ecc8e98303b20aa5d0|Sid||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Jenny.gdf : 3820a830e752d6b7a8be202e20b1f1ce
+./GDF/res/Vishal.gdf : 913ebe75fc49817fac7d74f8051df56e
+./GDF/res/Raman.gdf : a9f60529b4ac7b1e36f3922ea728b9b7
+./GDF/res/Ramesh.gdf : 0cf6e70c917d86fbe45d2ba3d0c6f312
+./GDF/res/Mukesh.gdf : 84585b3a29722b2ca9feea73d18343a5
+./GDF/res/Kalpana.gdf : b53d2a15e438b00738d24cdee9b9e872
+./GDF/res/Sunita.gdf : d1bc6cf3302e6df6ad6d8df0a5479cf9
+./GDF/res/Sanjay.gdf : 4aa49ab1eef626f81a20a97be5c8d104
+./GDF/res/Nago.gdf : b809c62b89f62f4b4813e5216cd4ae29

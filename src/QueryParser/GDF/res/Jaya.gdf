@@ -1,0 +1,36 @@
+23 0 8
+metadata
+@Subject
+a4d7ef06eff5bd763fe7a90da7e8a348|Jaya||likesToEat||Sandwich|
+8696933fc30f809218aea9f57fab16f4|Jaya||likesToEat||Burger|
+f1abbf1825452090dc6439e5bdde18f1|Jaya||likesToEat||Kadhi|
+ce359e7d992dedb537c24274728c54a1|Jaya||likesToEat||PaneerTikka|
+1976527ded15ed4f463edde8cd3aa288|Jaya||likesToEat||BreadJam|
+c63f7a84265ae0c07b1a808e782d63f7|Jaya||likesToEat||BreadButter|
+ac623a125d4d0e6275dc3f2ffa158e79|Jaya||likesToEat||AlooParatha|
+35125f28cedeab84f1c8ffcd4919f334|Jaya||likesToEat||VadaPav|
+9cfe898decab29536075f27380547f15|Jaya||likesToEat||Pavbhaji|
+8cbe12c41bc901d683ad50eeb94dd175|Jaya||registeredIn||DAA|
+c0f51760128e6f79d71c2d3ac8934b4e|Jaya||registeredIn||CompArch|
+b09726f991c2410e9dd3b29279363eaf|Jaya||registeredIn||M3|
+363d0f2a753db95c9287f87e0a8821f7|Jaya||registeredIn||M2|
+1379a7cb3a1987e97b9e32414dfbb711|Jaya||registeredIn||M1|
+82d2eeeaf0f6986e4759e1ffe4249e67|Jaya||registeredIn||MeOW|
+306ffcb7fb30e6804c5dd652bc11be68|Jaya||registeredIn||TRW|
+d47a3855bba114f077cb7151d7973a7b|Jaya||registeredIn||ES|
+2fdca725927a7d13e918ca5f3024b081|Jaya||registeredIn||CP|
+ac313b47d3aa3eb84e56cf15b7ef9f87|Jaya||registeredIn||PAVA|
+4a42dc2e542c3ca63339c2cccdbc2fe3|Jaya||registeredIn||POM|
+04f847b26ffa146a42685737bd1ed376|Jaya||registeredIn||POE|
+3bbeafc7a0ca6dbbd6a95e85db3959aa|Jaya||registeredIn||MuP|
+ebb879758f40dc594709df342924cd3a|Jaya||registeredIn||DSA|
+@Predicate
+@Object
+./GDF/res/Amit.gdf : fc7b47805c88f7e3ec89a1e39496dbe5
+./GDF/res/Vishal.gdf : 0d164ca80b24720341f6fa6d45a74509
+./GDF/res/Raman.gdf : 0979f497c6c836f9e552937cbbaed5e0
+./GDF/res/Suresh.gdf : e7eb19d390887c7dee95d14236fc3d3a
+./GDF/res/Kalpana.gdf : bfcf270657ca19b5edfbec9db10ab611
+./GDF/res/Nago.gdf : 4bcb52d1bff753b627676f375a4c7968
+./GDF/res/Shan.gdf : a37b48e083d6abb0dfebd61d5a2d9f9d
+./GDF/res/Ashish.gdf : 03fbf89a949f519498ce2de284c6d323
