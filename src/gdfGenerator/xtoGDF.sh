@@ -10,10 +10,12 @@ function xtoGDF {
 
     #code to extract the primary name of the file
     IFS='.'                             #Set the delimiter as '.'
-    fileArr=()
-    read -ra fileArr <<< "$filename"    #Get the name of the file without the extension
-    outname="${fileArr[0]}.gdf"         #Create name of the output file. It will have same name as input file with .gdf extension
     
+    #fileArr=()
+   #read -ra fileArr <<< "$filename"    #Get the name of the file without the extension
+   # outname="${fileArr[0]}.gdf"         #Create name of the output file. It will have same name as input file with .gdf extension
+    
+   outname='dist.gdf';
     IFS='|'                             #Set the delimiter as '|'
     
     count=0
