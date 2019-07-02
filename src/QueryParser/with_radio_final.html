@@ -1,0 +1,243 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<!-- link rel="stylesheet" type="css" href="~/GDF/rendererFront/style.css"> -->
+		<title> Renderer </title>
+<style>
+body {
+	background-color: #99C6E8;
+}
+.header {
+	overflow: hidden;
+	background-color: #333;
+	width=100%;
+	margin-bottom: 10px;
+}
+.columns {
+	float: left;
+	width: 33.33%;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#i01 {
+	color: green;
+	text-align: center;
+}
+#i02 {
+	font-family:"Courier";
+}
+.shadow {
+	text-shadow: 2px 2px 2px red;
+}
+.button-container {
+	text-align: center;
+}
+.button {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.footer {
+	float: left;
+	width: 50%;
+}
+.block {
+	border: 2px solid green;
+	border-radius: 25px;
+	background-color: #4CAF50;
+	padding: 5px 5px;
+	font-size: 16px;
+	font-family: "courier";
+	cursor: pointer;
+	text-align: center;
+}
+.block:hover {
+	background-color: #ddd;
+	color: black;
+}
+input[type=text] {
+	margin: 8px 0;
+	padding: 5px 5px 5px 5px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 25px;
+}
+
+p{
+	color: solid green;
+  	font-family: courier;
+  	font-size: 125%;
+}
+
+.radio {
+  /* secret sauce to styling radio buttons */
+  appearance: none;
+  -webkit-appearance: none;
+  -mozilla-appearance: none;
+  /* Aligning your label text and your radio */
+  vertical-align: text-bottom;
+}
+
+/* Setting the checked styles */
+.radio:checked {
+  border-color: pink;
+}
+
+.circle{
+  border: 10px solid red;
+  border-radius: 100%;
+}
+
+/* radio outer circle */
+.circle:checked {
+  border-width: 5px;
+}
+
+/* radio inner negative circle */
+.circle:checked:before {
+  content: "";
+  height: 10px;
+  width: 10px;
+  display: block;
+}
+.graph{
+	margin: 50px;
+	height: 50%;
+	text-align: center;
+	background-color: #53FF24;
+}
+.graph svg {
+    height: 100%;
+    width: auto;
+    align-self: center;
+}
+
+div#q_out{
+	margin: 20px 30px 30px 30px;
+	margin-right: 50px;
+	height: 400px;
+	width: 100%;
+	border: 2px inset #111111;
+}
+
+iframe#list{
+	margin-top: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	border: none;
+	border-top: 1px solid #AAAAAA
+}
+
+h3{
+	font-family: "Courier";
+	font-weight:100;
+	font-size:18px;
+	font-color: #222222;
+	margin:0 0 0 1px;
+	padding-left: 3px;
+	background: #FFF;
+}
+</style>
+	</head>
+	<body>
+		<div class="header shadow" id="i02"> <h1 id="i01"> Graph Data Digest Document Format </h1> </div>
+		<form method="get" id="myForm">
+		<div class="row">
+			<div class="columns">
+				<span id="i02"> Subject: </span> <input type="text" size="50" autofocus name="Subject" placeholder="Subject" autocomplete="on" id="subjectBox">
+				<br>
+			</div>
+			<div class="columns">
+				<span id="i02"> Predicate: </span> <input type="text" size="50" autofocus name="Predicate" placeholder="Predicate" autocomplete="on" id="predicateBox">
+				<br>
+			</div>
+			<div class="columns">
+				<span id="i02"> Object: </span> <input type="text" size="50" autofocus name="ObjecT" placeholder="Object" autocomplete="on" id="objectBox"> 
+				<br>
+			</div>
+		</div>
+		<br><br>
+		<div class="button-container">
+		<div>
+			<input type="button" class="block button" id="queryButton" value="Query" onclick="queryFun('Search')">
+			<input type="button" class="block button" id="createButton" value="Create" onclick="queryFun('Create')">
+			<input type="button" class="block button" id="deleteButton" value="Delete" onclick="queryFun('Delete')">
+			<!-- <button id="xyz" onclick="queryFun()">Click</button> -->
+			<br>
+			<br>
+			<p> <b>Choose how to parse output: </b></p>
+  			<input class="radio circle" type="radio" id="triples" name="shapes" checked>
+  			<label for="circle" style = "font-family:courier" >Triples</label>
+			&nbsp &nbsp &nbsp &nbsp
+			<input class="radio circle" type="radio" id="svg" name="shapes">
+ 			<label for="circle" style = "font-family:courier">SVG</label>
+		</div>
+		</div>
+		</form>
+		<div id="q_out" class="graph">
+		<h3>Result:</h3>
+		<iframe id="list">
+			<script src="https://d3js.org/d3.v4.min.js"></script>
+			<script src="https://unpkg.com/viz.js@1.8.0/viz.js" type="javascript/worker"></script>
+			<script src="https://unpkg.com/d3-graphviz@1.3.1/build/d3-graphviz.min.js"></script>
+			<script src="renderer.js"></script> 
+		</iframe>
+		</div>
+		<script>
+			var updatedURI="";
+			function queryFun(type)
+			{
+			//	document.getElementById("myForm").submit();
+				var str=window.location.search.substring(1);
+				var url=window.location.href;
+				var parts=url.split('?');
+				if(parts.length>0)
+				{
+					var dontChange=parts[0];
+					var oldQuery=parts[1];
+					//var list=str.split('&');
+					//var newQuery;
+					//if(list.length==4 || str=="")
+					//{
+					//	console.log("main");
+					//	if(list.length==4)
+					//		newQuery='type='+type+'&'+oldQuery;
+					//	else
+					//	{
+							console.log("IN");
+							var sub=document.getElementById("subjectBox").value;
+							var obj=document.getElementById("objectBox").value;
+							var pred=document.getElementById("predicateBox").value;	
+							var shapes="on";
+					newQuery='type='+type+'&'+'Subject='+sub+'&Predicate='+pred+'&ObjecT='+obj+'&shapes='+shapes;
+					//	}
+					//}
+					/*else
+					{
+						var sub,pred,obj,shapes;
+						for(var i=0;i<5;i++)
+						{
+							var pair=list[i].split('=');
+							if(i==1)
+								sub=pair[1];
+							if(i==2)
+								pred=pair[1];
+							if(i==3)
+								obj=pair[1];
+							if(i==4)
+								shapes=pair[1];
+						}
+					newQuery='type='+type+'&'+'Subject='+sub+'&Predicate='+pred+'&ObjecT='+obj+'&shapes='+shapes;
+					}*/
+					updatedURI=dontChange+'?'+newQuery;
+					console.log(updatedURI);
+					window.history.replaceState({},document.title,updatedURI);
+				}
+			}	
+		</script>	
+	</body>
+</html>
