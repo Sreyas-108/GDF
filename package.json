@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Sreyas-108/GDF/issues"
   },
-  "homepage": "https://github.com/Sreyas-108/GDF#readme"
+  "homepage": "https://github.com/Sreyas-108/GDF#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
