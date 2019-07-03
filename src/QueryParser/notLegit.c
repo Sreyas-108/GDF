@@ -1,4 +1,4 @@
-#include "query.h"
+#include "queryEngine.h"
 
 int notLegit(char* arr){
 	char * iter = malloc(sizeof(char));

@@ -75,6 +75,15 @@ char **query(char* subject, char* predicate, char* object);
 //implemented in query.c
 //---------
 
-
-
+//---------
+// searches the file fp for string key (which is the md5sum of required tuple) and appends it to 
+//triples at index represented by index, flag represents what is to be done to this output.
 void searchAndInsert(FILE * fp, char * key, char ** triples, int index, int flag, char flagCmp[]);
+//implemented in queryCase2.c
+//---------
+
+//---------
+// returns a value of 1 for all strings which are not legitimate.(Contain special characters etc)
+int notLegit(char* arr);
+//implemented in notLegit.c
+//---------
