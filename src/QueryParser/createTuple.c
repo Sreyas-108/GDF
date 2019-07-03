@@ -128,7 +128,6 @@ void insertTuple(char* subject,char* predicate,char* object)
 
 	if(prptr==NULL)
 	{
-		tmp_ptr=fopen("./GDF/pred/tmp_create.gdf","w");
 		prptr=fopen(name,"w");
 		fprintf(prptr,"%d %d %d\n",0,1,0);
 		fprintf(prptr,"%s\n","metadata");
@@ -144,6 +143,7 @@ void insertTuple(char* subject,char* predicate,char* object)
 	}
 	else
 	{
+		tmp_ptr=fopen("./GDF/pred/tmp_create.gdf","w");
 		fscanf(prptr,"%d %d %d\n",&n1,&n2,&n3);
 
 		fprintf(tmp_ptr,"%d %d %d\n",n1,n2+1,n3);
