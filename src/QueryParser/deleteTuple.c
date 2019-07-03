@@ -1,6 +1,14 @@
 #include "queryEngine.h"
 
 void deleteTuple(char* subject,char* predicate,char* object){
+	
+	// Check if all three are words with either only alphabets or only numbers.
+	if( notLegit(subject) || notLegit(predicate) || notLegit(object) ){
+		printf("\nPlease check the values entered.");
+		return;
+	}
+	//-----
+	
 	FILE* ptr = fopen("./dist.gdf","r");
 	char* tuple;
 	int flag = 0;

@@ -2,6 +2,13 @@
 
 void insertTuple(char* subject,char* predicate,char* object)
 {
+	// Check if all three are words with either only alphabets or only numbers.
+	if( notLegit(subject) || notLegit(predicate) || notLegit(object) ){
+		printf("\nPlease check the values entered.");
+		return;
+	}
+	//-----
+	
 	//FOR dist.gdf-----------------------------------------------------
 	FILE * ptr = fopen("dist.gdf","a");
 	char arr[MAX];
