@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <html>
 	<head>
-		<!-- link rel="stylesheet" type="css" href="~/GDF/rendererFront/style.css"> -->
 		<title> Renderer </title>
 <style>
 body {
@@ -191,53 +190,57 @@ h3{
 			var updatedURI="";
 			function queryFun(type)
 			{
-			//	document.getElementById("myForm").submit();
+				document.getElementById("myForm").submit();
 				var str=window.location.search.substring(1);
+				document.write(str);
 				var url=window.location.href;
+				document.write(url);
 				var parts=url.split('?');
+				console.log(parts.length);
 				if(parts.length>0)
 				{
 					var dontChange=parts[0];
 					var oldQuery=parts[1];
-					//var list=str.split('&');
-					//var newQuery;
-					//if(list.length==4 || str=="")
-					//{
-					//	console.log("main");
-					//	if(list.length==4)
-					//		newQuery='type='+type+'&'+oldQuery;
-					//	else
-					//	{
-							console.log("IN");
-							var sub=document.getElementById("subjectBox").value;
-							var obj=document.getElementById("objectBox").value;
-							var pred=document.getElementById("predicateBox").value;	
-							var shapes="on";
-					newQuery='type='+type+'&'+'Subject='+sub+'&Predicate='+pred+'&ObjecT='+obj+'&shapes='+shapes;
-					//	}
-					//}
-					/*else
+
+					var list=oldQuery.split('&');
+					var sub,pred,obj,xyz,shapes;
+					console.log(list.length);
+					if(list.length==4)
 					{
-						var sub,pred,obj,shapes;
-						for(var i=0;i<5;i++)
-						{
-							var pair=list[i].split('=');
-							if(i==1)
-								sub=pair[1];
-							if(i==2)
-								pred=pair[1];
-							if(i==3)
-								obj=pair[1];
-							if(i==4)
-								shapes=pair[1];
-						}
+						console.log("IN");
+						xyz=list[0].split('=');
+						sub=xyz[1];
+						xyz=list[1].split('=');
+						pred=xyz[1];
+						xyz=list[2].split('=');
+						obj=xyz[1];
+						xyz=list[3].split('=');
+						shapes=xyz[1];
 					newQuery='type='+type+'&'+'Subject='+sub+'&Predicate='+pred+'&ObjecT='+obj+'&shapes='+shapes;
-					}*/
+					}
+					else
+					{	
+						xyz=list[1].split('=');
+						sub=xyz[1];
+						xyz=list[2].split('=');
+						pred=xyz[1];
+						xyz=list[3].split('=');
+						obj=xyz[1];
+						xyz=list[4].split('=');
+						shapes=xyz[1];
+
+					newQuery='type='+type+'&'+'Subject='+sub+'&Predicate='+pred+'&ObjecT='+obj+'&shapes='+shapes;
+					}
 					updatedURI=dontChange+'?'+newQuery;
-					console.log(updatedURI);
-					window.history.replaceState({},document.title,updatedURI);
+					sessionStorage.setItem('continue','true');
+					sessionStorage.setItem('URI',updatedURI);
 				}
-			}	
+			}
+			if(sessionStorage.getItem("continue"))
+			{
+				console.log(sessionStorage.getItem("URI"));
+				window.history.replaceState({},document.title,sessionStorage.getItem("URI"));
+			}
 		</script>	
 	</body>
 </html>
