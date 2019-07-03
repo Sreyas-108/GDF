@@ -12,22 +12,20 @@ const query=require('./query').query;
 //});
 
 app.get('/',(req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
-  res.write(homebase);
-  res.end();
-});
-
-app.get('/with_radio_final.html',(req, res) => {
   sub=req.query['Subject'];
   pred=req.query['Predicate'];
   obj=req.query['ObjecT'];
   type=req.query['type'];
-  console.log("SUBJECT= "+sub);
-  console.log("PREDICATE= "+pred);
-  console.log("OBJECT= "+obj);
-  console.log("TYPE= "+type);
-  query(type, sub, pred, obj);
+  if(sub != undefined){
+    console.log("SUBJECT= "+sub);
+    console.log("PREDICATE= "+pred);
+    console.log("OBJECT= "+obj);
+    console.log("TYPE= "+type);
+    query(type, sub, pred, obj);
+  }
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/html');
+  res.write(homebase);
 });
 
 //PORT
