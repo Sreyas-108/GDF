@@ -46,6 +46,14 @@ app.get('/render.html', (req, res) =>{
   res.end();
 });
 
+app.get('/renderer.js', (req, res) =>{
+  const renderer = fs.readFileSync('./renderer.js');
+  res.statusCode = 200;
+  res.setHeader = ('Content-Type', 'text/javascript');
+  res.write(renderer);
+  res.end();
+});
+
 //PORT
 const port = process.env.PORT || 3000
 
