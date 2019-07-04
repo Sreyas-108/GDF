@@ -3,6 +3,7 @@ const express = require('express');
 const app = express();
 const hostname = '127.0.0.1'; // Local host ip.
 const homebase=fs.readFileSync('./with_radio_final.html');
+const q_out = fs.readFileSync('./q_out_list.html');
 const query=require('./query').query;
 //var server = http.createServer(function(req, res) {
 //  res.statusCode = 200;
@@ -26,6 +27,15 @@ app.get('/',(req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
   res.write(homebase);
+  res.end();
+});
+
+app.get('/q_out_list.html', (req, res) =>{
+  const q_out = fs.readFileSync('./q_out_list.html');
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/html');
+  res.write(q_out);
+  res.end();
 });
 
 //PORT
