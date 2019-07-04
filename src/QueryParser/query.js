@@ -9,6 +9,7 @@ function query(type, sub, pred, obj){
         str = './create "<'+sub+','+pred+','+obj+'>" > temp';
     if(type==='Delete')
         str = './delete "<'+sub+','+pred+','+obj+'>" > temp';
+    console.log(str);
     exec(str,
     function(error, stdout, stderr){
         console.log('stdout:'+stdout);
