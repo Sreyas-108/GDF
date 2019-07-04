@@ -12,10 +12,10 @@ function createPage
 	echo "<body>" >> $outfile
 	echo "<ul>" >> $outfile
 	IFS=$'\n'			
-	while read line										#Loop to go through each relation in a gdf file
+	while read line										#Loop to go through each relation in an html file
 	do
-		IFS='|' read -r -a rel<<<"$line"				#Reading the line into array 'rel' separated by '|'
 		echo "<li>$line</li>" >> $outfile
+		echo $line
 	done < $filename
 	echo "</ul>" >> $outfile
 	echo "</body>" >> $outfile
