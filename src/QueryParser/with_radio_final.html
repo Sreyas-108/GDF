@@ -170,10 +170,10 @@ h3{
 			<br>
 			<br>
 			<p> <b>Choose how to parse output: </b></p>
-  			<input class="radio circle" type="radio" id="triples" name="shapes" checked>
+  			<input class="radio circle" type="radio" id="triples" name="shapes" value="Triples" checked>
   			<label for="circle" style = "font-family:courier" >Triples</label>
 			&nbsp &nbsp &nbsp &nbsp
-			<input class="radio circle" type="radio" id="svg" name="shapes">
+			<input class="radio circle" type="radio" id="svg" name="shapes" value="SVG">
  			<label for="circle" style = "font-family:courier">SVG</label>
 		</div>
 		</div>
@@ -206,7 +206,11 @@ h3{
 					var sub=document.getElementById("subjectBox").value;
 					var obj=document.getElementById("objectBox").value;
 					var pred=document.getElementById("predicateBox").value;	
-					var shapes="on";
+					var shapes="";
+					if(document.getElementById("triples").checked)
+						shapes="triples";
+					else
+						shapes="svg";
 					newQuery='type='+type+'&'+'Subject='+sub+'&Predicate='+pred+'&ObjecT='+obj+'&shapes='+shapes;
 					updatedURI=dontChange+'?'+newQuery;
 					window.history.replaceState({},document.title,updatedURI);
@@ -220,7 +224,6 @@ h3{
 			    document.getElementById('list').style.display="none";
     			document.getElementById('graph').style.display="none";
 			}
-
 			else 
 			{
 				if(document.getElementById('triples').checked)
