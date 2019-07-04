@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<title> Renderer </title>
-		<script type="text/javascript" src="oscript.js"></script>
 <style>
 body {
 	background-color: #99C6E8;
@@ -184,6 +183,7 @@ h3{
 		</div>
 		<div class="q_out" id="graph">
 			<h3>Result:</h3>
+			<iframe id='svg_frame' src="http://127.0.0.1:3000/render.html"></iframe>
 		</div>
 		<script>
 			var str=window.location.search.substring(1);
@@ -213,6 +213,8 @@ h3{
 				}
 			}
 			var str = window.location.search.substring(1);
+			let params = (new URL(document.location)).searchParams;
+			let rad_shape = params.get("shapes");
 			if(!str)
 			{
 			    document.getElementById('list').style.display="none";
@@ -220,16 +222,17 @@ h3{
 			}
 			else 
 			{
-				if(document.getElementById('triples').checked)
+				if(rad_shape == 'triples')
 				{
-    					document.getElementById('list').style.display="block";
+    				document.getElementById('list').style.display="block";
 					document.getElementById('graph').style.display="none";
 					document.getElementById('list_frame').location.reload(true);
 				}
-				else(document.getElementById('svg').checked)
+				else
 				{
-    					document.getElementById('list').style.display="none";
-    					document.getElementById('graph').style.display="block";
+    				document.getElementById('list').style.display="none";
+					document.getElementById('graph').style.display="block";
+					document.getElementById('svg_frame').location.reload(true);
 				}
 			}
 		</script> 	

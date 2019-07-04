@@ -19,7 +19,6 @@ function createPage
 	echo "</ul>" >> $outfile
 	echo "</body>" >> $outfile
 	echo "</html>" >> $outfile
-	rm temp
 }
 
 createPage $@

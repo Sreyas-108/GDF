@@ -38,6 +38,14 @@ app.get('/q_out_list.html', (req, res) =>{
   res.end();
 });
 
+app.get('/render.html', (req, res) =>{
+  const rend = fs.readFileSync('./render.html');
+  res.statusCode = 200;
+  res.setHeader = ('Content-Type', 'text/html');
+  res.write(rend);
+  res.end();
+});
+
 //PORT
 const port = process.env.PORT || 3000
 
