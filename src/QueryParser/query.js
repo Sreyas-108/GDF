@@ -1,6 +1,6 @@
-/***********************************************************************/
-/*Function to execute:"query(<type>, <subject>, <predicate>, <object>)"*/
-/***********************************************************************/
+/********************************************************************************/
+/* Function to be executed as : query(<type>, <subject>, <predicate>, <object>) */
+/********************************************************************************/
 var exec = require('child_process').exec, child;
 function query(type, sub, pred, obj){
     if(type==='Search')
