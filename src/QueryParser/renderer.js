@@ -65,14 +65,14 @@ function getDOTfromGDF(filename) {
           nodes.push(getLabel(words[5]));
           //Add edge_description
           var label=getLabel(words[3])
-          var QUERY_URL='with_radio_final.htm?predicate='+label
+          var QUERY_URL='?type=Search&Subject=?&Predicate='+label+'&ObjecT=?&shapes=on'
           edge_description.push(getLabel(words[1])+' -> '+getLabel(words[5])+'['+'label="'+getLabel(words[3])+'", color="'+randomColorString(getLabel(words[1]))+'", URL="'+QUERY_URL+'"];')
           n_edges++;
        }
     new Set(nodes).forEach(function(value1,value2,set){
     	var label=getLabel(value1)
     	n_nodes++;
-    	var QUERY_URL='with_radio_final.htm?subject='+label
+    	var QUERY_URL='?type=Search&Subject='+label+'&Predicate=?&ObjecT=?&shapes=on'
     	dotArray.push(label+' [ '+'label="'+label+'", fillcolor="'+randomColor()+'", URL="'+QUERY_URL+'" ];')
     })
     dotArray=dotArray.concat(edge_description);
