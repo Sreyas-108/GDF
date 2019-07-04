@@ -12,7 +12,7 @@ function createPage
 	echo "<body>" >> $outfile
 	echo "<ul>" >> $outfile
 	IFS=$'\n'			
-	while read line										#Loop to go through each relation in an html file
+	while read line						#Loop to go through each relation in an html file
 	do
 		echo "<li>$line</li>" >> $outfile
 		echo $line
