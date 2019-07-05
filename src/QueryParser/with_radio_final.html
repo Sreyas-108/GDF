@@ -3,59 +3,111 @@
 	<head>
 		<title> Renderer </title>
 <style>
+input:focus{
+	outline:none;
+	background:#dddddd;
+	background-image:linear-gradient(to bottom right,white, #888);
+}
 body {
-	background-color: #99C6E8;
+	background-color: #FFFFFF;
+	margin:0;
+	padding:0;
+	height:100%;
+	background-image: url("./img/darkness-transparent-black-gradient-1.png");
+	background-size:cover;
 }
 .header {
 	overflow: hidden;
-	background-color: #333;
+	height: 60px;
 	width:100%;
-	margin-bottom: 10px;
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+#head{	
+	background-image: url("./img/—Pngtree—blue science technology background_88873.jpg");
+	padding-bottom:10px;
+	margin:0;
+}
+#logo{
+	height:100px;
+	position:absolute;
+	top:0;
 }
 .columns {
+	display:table-cell;
+	margin-left:4%;
 	float: left;
-	width: 33.33%;
+	width: 28%;
 }
 .row:after {
 	content: "";
 	display: table;
 	clear: both;
+	padding:auto;
+	margin:auto;
 }
 #i01 {
-	color: green;
+	margin-top:5px;
+	padding-left: 820px;
+	color: #eeeeee;
 	text-align: center;
 }
 #i02 {
-	font-family:"Courier";
+	font-family:'Times New Roman', Times, serif;
 }
 .shadow {
-	text-shadow: 2px 2px 2px red;
+	text-shadow: 2px 2px 2px orange;
 }
 .button-container {
 	text-align: center;
 }
 .button {
 	display: inline-block;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin:-20px 20px 10px 20px;
 }
 .footer {
 	float: left;
 	width: 50%;
 }
 .block {
-	border: 2px solid green;
-	border-radius: 25px;
-	background-color: #4CAF50;
-	padding: 5px 5px;
-	font-size: 16px;
+	color: #000000;
+	font-weight:bold;
+	text-transform: uppercase;
+	background-image: linear-gradient(to top left,#131350, #ffffff);
+	border: 2px solid #9993f1 ;
+	border-radius: 15px;
+	display: inline-block;
+	padding: 3px;
+	width: 100px;
+	height:30px;
+	font-size: 14px;
 	font-family: "courier";
 	cursor: pointer;
 	text-align: center;
 }
-.block:hover {
-	background-color: #ddd;
-	color: black;
+#queryButton:hover {
+	color: #ffffff ;
+	font-weight:bolder;
+	font-size:16px;
+	background: #f6b93b;
+	border-color: #f6b93b;
+	transition: all 0.4s ease 0s;
+}
+#createButton:hover {
+	color: #ffffff ;
+	font-weight:bolder;
+	font-size:16px;
+	background: #00ff00;
+	border-color: #00ff00;
+	transition: all 0.4s ease 0s;
+}
+#deleteButton:hover {
+	color: #ffffff ;
+	font-weight:bolder;
+	font-size:16px;
+	background: #ff4500;
+	border-color: #ff4500;
+	transition: all 0.4s ease 0s;
 }
 input[type=text] {
 	margin: 8px 0;
@@ -63,6 +115,19 @@ input[type=text] {
 	box-sizing: border-box;
 	border: 1px solid #ccc;
 	border-radius: 25px;
+}
+b{
+	color:#fff;
+	font-size:18px;
+	font-weight: bolder;
+	margin-right:30px;
+}
+label{
+	font-family:'Times New Roman', Times, serif;
+	font-weight:bold;
+	font-size:16px;
+	color:#fff;
+	margin:10px 0 5px 0;
 }
 
 p{
@@ -77,22 +142,20 @@ p{
   -webkit-appearance: none;
   -mozilla-appearance: none;
   /* Aligning your label text and your radio */
+
   vertical-align: text-bottom;
 }
 
 /* Setting the checked styles */
 .radio:checked {
-  border-color: pink;
+  border-color: #fff;
+  border-width: 2px;
+  background-color:#000;
 }
 
 .circle{
-  border: 10px solid red;
+  border: 7px solid #ccc;
   border-radius: 100%;
-}
-
-/* radio outer circle */
-.circle:checked {
-  border-width: 5px;
 }
 
 /* radio inner negative circle */
@@ -101,6 +164,8 @@ p{
   height: 10px;
   width: 10px;
   display: block;
+  border-radius: 5px;
+  background-color:#000;
 }
 .graph{
 	margin: 50px;
@@ -140,43 +205,48 @@ h3{
 	padding-left: 3px;
 	background: #FFF;
 }
+footer{
+	position:absolute;
+	bottom:0;
+}
 </style>
 	</head>
-	<body>
+	<body><div id="body">
+		<div id="head">
 		<div class="header shadow" id="i02"> <h1 id="i01"> Graph Data Digest Document Format </h1> </div>
+		<img id = "logo" src = "./img/LogoMakr_0tuzZi.png"></img>
 		<form method="get" id="myForm">
 		<div class="row">
 			<div class="columns">
-				<span id="i02"> Subject: </span> <input type="text" size="50" autofocus name="Subject" placeholder="Subject" autocomplete="on" id="subjectBox">
+				<input type="text" size="50" autofocus name="Subject" placeholder="Subject" autocomplete="on" id="subjectBox">
 				<br>
 			</div>
 			<div class="columns">
-				<span id="i02"> Predicate: </span> <input type="text" size="50" autofocus name="Predicate" placeholder="Predicate" autocomplete="on" id="predicateBox">
+				<input type="text" size="50" autofocus name="Predicate" placeholder="Predicate" autocomplete="on"  id="predicateBox">
 				<br>
 			</div>
 			<div class="columns">
-				<span id="i02"> Object: </span> <input type="text" size="50" autofocus name="ObjecT" placeholder="Object" autocomplete="on" id="objectBox"> 
+				<input type="text" size="50" autofocus name="ObjecT" placeholder="Object" autocomplete="on" id="objectBox"> 
 				<br>
 			</div>
 		</div>
-		<br><br>
+		<br>
 		<div class="button-container">
-		<div>
-			<input type="button" class="block button" id="queryButton" value="Query" onclick="queryFun('Search')">
-			<input type="button" class="block button" id="createButton" value="Create" onclick="queryFun('Create')">
-			<input type="button" class="block button" id="deleteButton" value="Delete" onclick="queryFun('Delete')">
-			<!-- <button id="xyz" onclick="queryFun()">Click</button> -->
-			<br>
-			<br>
-			<p> <b>Choose how to parse output: </b></p>
+			<b>Choose how to parse output: </b>
   			<input class="radio circle" type="radio" id="triples" name="shapes" value="Triples" checked>
   			<label for="circle" style = "font-family:courier" >Triples</label>
 			&nbsp &nbsp &nbsp &nbsp
 			<input class="radio circle" type="radio" id="svg" name="shapes" value="SVG">
  			<label for="circle" style = "font-family:courier">SVG</label>
-		</div>
+			 <br>
+			 <br>
+			 <input type="button" class="block button" id="queryButton" value="Query" onclick="queryFun('Search')">
+			 <input type="button" class="block button" id="createButton" value="Create" onclick="queryFun('Create')">
+			 <input type="button" class="block button" id="deleteButton" value="Delete" onclick="queryFun('Delete')">
+			 <!-- <button id="xyz" onclick="queryFun()">Click</button> -->
 		</div>
 		</form>
+		</div>
 		<div class="q_out" id="list">
 			<h3>Result:</h3>
 			<iframe id='list_frame' src="http://127.0.0.1:3000/q_out_list.html"></iframe>
@@ -185,6 +255,10 @@ h3{
 			<h3>Result:</h3>
 			<iframe id='svg_frame' src="http://127.0.0.1:3000/render.html"></iframe>
 		</div>
+		<div height="600px"></div>
+		<footer>
+			Design-by:sneo
+		</footer>
 		<script>
 			var str=window.location.search.substring(1);
 			var updatedURI="";
@@ -235,6 +309,6 @@ h3{
 					document.getElementById('svg_frame').location.reload(true);
 				}
 			}
-		</script> 	
+		</script> </div>	
 	</body>
 </html>

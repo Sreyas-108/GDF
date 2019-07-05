@@ -5,13 +5,9 @@ const hostname = '127.0.0.1'; // Local host ip.
 const homebase=fs.readFileSync('./with_radio_final.html');
 const q_out = fs.readFileSync('./q_out_list.html');
 const query=require('./query').query;
-//var server = http.createServer(function(req, res) {
-//  res.statusCode = 200;
-//  res.setHeader('Content-Type', 'text/html');
-//  res.write(homebase);
-//  res.end();
-//});
+express.static('.');
 
+app.use(express.static('.'));
 app.get('/',(req, res) => {
   sub=req.query['Subject'];
   pred=req.query['Predicate'];
@@ -53,6 +49,7 @@ app.get('/renderer.js', (req, res) =>{
   res.write(renderer);
   res.end();
 });
+
 
 //PORT
 const port = process.env.PORT || 3000
