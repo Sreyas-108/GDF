@@ -17,15 +17,14 @@ function query(type, sub, pred, obj){
         if(error!=null){
             console.log('exec error: '+error);
         }
+	exec('bash create_q_out_list.sh', function(error,stdout,stderr){
+	 console.log('stdout:'+stdout);
+        console.log('stderr:'+stderr);
+        if(error!=null){
+            console.log('exec error: '+error);
+        }
 
-        exec('bash create_q_out_list.sh',
-        function(error, stdout, stderr){
-            console.log('stdout:'+stdout);
-            console.log('stderr:'+stderr);
-            if(error!=null){
-                console.log('exec error: '+error);
-            }
-        });
+	});
     });
 }
 

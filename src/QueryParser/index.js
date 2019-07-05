@@ -27,6 +27,7 @@ app.get('/',(req, res) => {
 });
 
 app.get('/q_out_list.html', (req, res) =>{
+  console.log("IN");
   const q_out = fs.readFileSync('./q_out_list.html');
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
