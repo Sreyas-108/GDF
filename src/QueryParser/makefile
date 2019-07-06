@@ -2,7 +2,7 @@ all: search delete create
 search: queryCase1.o queryCase2.o queryCase3.o query.o searchDriver.o parser.o notLegit.o queryEngine.h
 	gcc -g -o search query.o queryCase1.o queryCase2.o queryCase3.o searchDriver.o parser.o notLegit.o
 delete: deleteTuple.o removeLine.o md5sum.o updateCount.o parser.o deleteDriver.o notLegit.o queryEngine.h
-	gcc -g -o deleteTuple.o deleteCheck removeLine.o md5sum.o parser.o updateCount.o deleteDriver.o notLegit.o
+	gcc -g -o delete deleteTuple.o removeLine.o md5sum.o parser.o updateCount.o deleteDriver.o notLegit.o
 create: createTuple.o md5sum.o parser.o createDriver.o notLegit.o queryEngine.h
 	gcc -g -o create createTuple.o md5sum.o parser.o createDriver.o notLegit.o
 queryCase1.o: queryCase1.c queryEngine.h
@@ -23,7 +23,7 @@ removeLine.o: removeLine.c queryEngine.h
 	gcc -g -c removeLine.c
 md5sum.o: md5sum.c queryEngine.h
 	gcc -g -c md5sum.c
-createTupel.o: createTuple.c queryEngine.h
+createTuple.o: createTuple.c queryEngine.h
 	gcc -g -c createTuple.c
 updateCount.o: updateCount.c queryEngine.h
 	gcc -g -c updateCount.c
