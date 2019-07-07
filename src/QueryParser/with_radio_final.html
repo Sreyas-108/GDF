@@ -3,10 +3,30 @@
 	<head>
 		<title> Renderer </title>
 <style>
-input:focus{
+*:focus{
 	outline:none;
-	background:#dddddd;
+}
+input[type=text]:focus{
+	background:#fff;
+	padding: 5px 5px 5px 5px;
+	margin: 8px 0 6px 0;
+	transition: all 0.4s ease 0s;
+	color:black;
+}
+input[type=text] {
+	margin: 8px 0;
+	padding: 5px 5px 5px 5px;
+	box-sizing: border-box;
+	border: 0 solid #000000;
+	border-radius: 25px;
+	background:rgba(0, 0, 0, 0.822);
+	transition: all 0.4s ease 0s;
+	color:white;
+}
+input[type=text]:hover{
 	background-image:linear-gradient(to bottom right,white, #888);
+	transition: all 0.2s ease 0s;
+	color:black;
 }
 body {
 	background-color: #FFFFFF;
@@ -85,37 +105,61 @@ body {
 	font-family: "courier";
 	cursor: pointer;
 	text-align: center;
+	transition: all 0.4s ease 0s;
 }
 #queryButton:hover {
+	background-image: linear-gradient(to bottom right,#131350, #ffffff);
+	transition: all 0.4s ease 0s;
+}
+#createButton:hover {
+	background-image: linear-gradient(to bottom right,#131350, #ffffff);
+	transition: all 0.4s ease 0s;
+}
+#deleteButton:hover {
+	background-image: linear-gradient(to bottom right,#131350, #ffffff);
+	transition: all 0.4s ease 0s;
+}
+#queryButton:focus {
+	font-weight:bolder;
+	font-size:16px;
+	background-image: linear-gradient(to bottom right,#f6b93b, #ffffff);
+	border-color: #f6b93b;
+	transition: all 0.4s ease 0s;
+}
+#createButton:focus{
+	font-weight:bolder;
+	font-size:16px;
+	background-image: linear-gradient(to bottom right,#00ff00, #ffffff);
+	border-color: #00ff00;
+	transition: all 0.4s ease 0s;
+}
+#deleteButton:focus {
+	font-weight:bolder;
+	font-size:16px;
+	background-image: linear-gradient(to bottom right,#ff4500, #ffffff);
+	border-color: #ff4500;
+	transition: all 0.4s ease 0s;
+}
+#queryButton:active {
 	color: #ffffff ;
 	font-weight:bolder;
 	font-size:16px;
 	background: #f6b93b;
 	border-color: #f6b93b;
-	transition: all 0.4s ease 0s;
 }
-#createButton:hover {
+#createButton:active{
 	color: #ffffff ;
 	font-weight:bolder;
 	font-size:16px;
 	background: #00ff00;
 	border-color: #00ff00;
-	transition: all 0.4s ease 0s;
 }
-#deleteButton:hover {
+#deleteButton:active {
 	color: #ffffff ;
 	font-weight:bolder;
 	font-size:16px;
 	background: #ff4500;
 	border-color: #ff4500;
-	transition: all 0.4s ease 0s;
-}
-input[type=text] {
-	margin: 8px 0;
-	padding: 5px 5px 5px 5px;
-	box-sizing: border-box;
-	border: 1px solid #ccc;
-	border-radius: 25px;
 }
 b{
 	color:#fff;
@@ -123,124 +167,134 @@ b{
 	font-weight: bolder;
 	margin-right:30px;
 }
-label{
-	font-family:'Times New Roman', Times, serif;
-	font-weight:bold;
-	font-size:16px;
-	color:#fff;
-	margin:10px 0 5px 0;
-}
-
-p{
-	color: solid green;
-  	font-family: courier;
-  	font-size: 125%;
-}
-
-.radio {
-  /* secret sauce to styling radio buttons */
-  appearance: none;
-  -webkit-appearance: none;
-  -mozilla-appearance: none;
-  /* Aligning your label text and your radio */
-
-  vertical-align: text-bottom;
-}
-
-/* Setting the checked styles */
-.radio:checked {
-  border-color: #fff;
-  border-width: 2px;
-  background-color:#000;
-}
-
-.circle{
-  border: 7px solid #ccc;
-  border-radius: 100%;
-}
-
-/* radio inner negative circle */
-.circle:checked:before {
-  content: "";
-  height: 10px;
-  width: 10px;
-  display: block;
-  border-radius: 5px;
-  background-color:#000;
-}
-.graph{
-	margin: 50px;
-	height: 50%;
-	text-align: center;
-	background-color: #53FF24;
-}
-.graph svg {
-    height: 100%;
-    width: auto;
-    align-self: center;
-}
 
 .q_out{
-	margin: 20px 30px 30px 30px;
-	margin-right: 50px;
-	height: 275px;
-	width: 95%;
-	border: 2px inset #111111;
+	margin: 20px 5% 20px 5%;
+	height: 350px;
+	width: 90%;
+	border-radius: 175px;
+	border: 5px solid rgba(4, 16, 80, 0.822);
+	scrollbar-width: 0;
+	transition: all 0.1s ease 0s;
+}
+.q_out:hover{
+	border-radius: 0;
+	border: 0;
+	background-color: rgba(189, 221, 8, 0.7);
+	box-shadow: 10px 10px 5px black;
+	transition: all 0.1s ease 0s;
+	border: 5px solid rgba(0,0,0,0.0);
 }
 
 iframe{
-	padding: 5x;
-	height: 90%;
-	width: 100%;
+	padding: 5px;
+	height: 86%;
+	margin: 0 12.5% 0 12.5%;
+	width: 75%;
 	overflow: auto;
 	border: none;
-	border-top: 1px ridge #AAAAAA;
+	border-top: 2px double rgb(180, 15, 15);
 }
 
 h3{
-	font-family: "Courier";
-	font-weight:100;
-	font-size:18px;
+	height:10%;
+	text-align:center;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight:bolder;
+	font-size:30px;
 	color: #222222;
 	margin:0 0 0 1px;
 	padding-left: 3px;
-	background: #FFF;
 }
+
+#svg{
+	position:relative;
+	right:-80%;
+	top: -22em;
+	height:10%;
+	width: 8%;
+	transition: all 0.02s ease 0s;
+}
+
+#svg:hover{
+	position:relative;
+	right:-79.8%;
+	top: -22.15em;
+	cursor:pointer;
+	height: 10.5%;
+	width: 8.4%;	
+	transition: all 0.02s ease 0s;
+}
+#svg:focus{
+	position:relative;
+	right:-79.8%;
+	top: -22.15em;
+	cursor:pointer;
+	height: 10.5%;
+	width: 8.4%;	
+	transition: all 0.02s ease 0s;
+}
+
 footer{
+	padding-top:1px;
+	font-size:16px;
+	display:block;
+	height:18px;
+	width:100%;
+	color:white;
+	background:black;
 	position:absolute;
 	bottom:0;
 }
+.credits{
+	position:absolute;
+	right:5px;
+}
+.credit{
+	margin-left:5px;
+	color: rgb(12, 59, 214);
+}
+.credit .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  top:-25px;
+  left:-100px;
+  z-index: 1;
+}
+
+.credit:hover .tooltiptext {
+  visibility: visible;
+}
+
 </style>
 	</head>
-	<body><div id="body">
+	<body>
 		<div id="head">
 		<div class="header shadow" id="i02"> <h1 id="i01"> Graph Data Digest Document Format </h1> </div>
 		<img id = "logo" src = "./img/LogoMakr_0tuzZi.png"></img>
 		<form method="get" id="myForm">
 		<div class="row">
 			<div class="columns">
-				<input type="text" size='' style='width:100%' autofocus name="Subject" placeholder="Subject" autocomplete="on" id="subjectBox">
+				<input type="text" size='' style='width:100%' autofocus="true" name="Subject" placeholder="Subject" autocomplete="on" id="subjectBox">
 				<br>
 			</div>
 			<div class="columns">
-				<input type="text" size='' style='width:100%' autofocus name="Predicate" placeholder="Predicate" autocomplete="on"  id="predicateBox">
+				<input type="text" size='' style='width:100%' name="Predicate" placeholder="Predicate" autocomplete="on"  id="predicateBox">
 				<br>
 			</div>
 			<div class="columns">
-				<input type="text" size='' style='width:100%' autofocus name="ObjecT" placeholder="Object" autocomplete="on" id="objectBox"> 
+				<input type="text" size='' style='width:100%' name="ObjecT" placeholder="Object" autocomplete="on" id="objectBox"> 
 				<br>
 			</div>
 		</div>
 		<br>
 		<div class="button-container">
-			<b>Choose how to parse output: </b>
-  			<input class="radio circle" type="radio" id="triples" name="shapes" value="Triples" checked>
-  			<label for="circle" style = "font-family:courier" >Triples</label>
-			&nbsp &nbsp &nbsp &nbsp
-			<input class="radio circle" type="radio" id="svg" name="shapes" value="SVG">
- 			<label for="circle" style = "font-family:courier">SVG</label>
-			 <br>
-			 <br>
 			 <input type="button" class="block button" id="queryButton" value="Query" onclick="queryFun('Search')">
 			 <input type="button" class="block button" id="createButton" value="Create" onclick="queryFun('Create')">
 			 <input type="button" class="block button" id="deleteButton" value="Delete" onclick="queryFun('Delete')">
@@ -249,16 +303,20 @@ footer{
 		</form>
 		</div>
 		<div class="q_out" id="list">
-			<h3>Result:</h3>
+			<h3>Result</h3>
 			<iframe id='list_frame' src="http://127.0.0.1:3000/q_out_list.html"></iframe>
+			<a target="_blank" href="http://127.0.0.1:3000/render.html"><img id="svg" src="./img/buttonB.svg"></a>
 		</div>
-		<div class="q_out" id="graph">
-			<h3>Result:</h3>
-			<iframe id='svg_frame' src="http://127.0.0.1:3000/render.html"></iframe>
-		</div>
-		<div height="600px"></div>
 		<footer>
-			Design-by:sneo
+			Design: sneo
+			<span class='credits'>Credits: 
+				<a target='_blank' class='credit' href="https://my.logomakr.com/">logomakr
+					<span class='tooltiptext'>Created my free logo at LogoMakr.com</span>
+				</a>  
+				<a target='_blank' class='credit' href="https://pngtree.com/free-backgrounds">pngtree.com
+					<span class='tooltiptext'>Free background photos from pngtree.com</span>
+				</a>
+			</span>
 		</footer>
 		<script>
 			var str=window.location.search.substring(1);
@@ -275,12 +333,7 @@ footer{
 					var sub=document.getElementById("subjectBox").value;
 					var obj=document.getElementById("objectBox").value;
 					var pred=document.getElementById("predicateBox").value;	
-					var shapes="";
-					if(document.getElementById("triples").checked)
-						shapes="triples";
-					else
-						shapes="svg";
-					newQuery='type='+type+'&'+'Subject='+sub+'&Predicate='+pred+'&ObjecT='+obj+'&shapes='+shapes;
+					newQuery='type='+type+'&'+'Subject='+sub+'&Predicate='+pred+'&ObjecT='+obj;
 					updatedURI=dontChange+'?'+newQuery;
 					window.history.replaceState({},document.title,updatedURI);
 					window.location.reload(true);
@@ -288,28 +341,15 @@ footer{
 				}
 			}
 			var str = window.location.search.substring(1);
-			let params = (new URL(document.location)).searchParams;
-			let rad_shape = params.get("shapes");
 			if(!str)
 			{
-			    document.getElementById('list').style.display="none";
-    			document.getElementById('graph').style.display="none";
+				document.getElementById('list').style.display="none";
 			}
-			else 
+			else
 			{
-				if(rad_shape == 'triples')
-				{
-    				document.getElementById('list').style.display="block";
-					document.getElementById('graph').style.display="none";
-					document.getElementById('list_frame').location.reload(true);
-				}
-				else
-				{
-    				document.getElementById('list').style.display="none";
-					document.getElementById('graph').style.display="block";
-					document.getElementById('svg_frame').location.reload(true);
-				}
+				document.getElementById('list').style.display="block";
+				document.getElementById('list_frame').location.reload(true);
 			}
-		</script> </div>	
+		</script>	
 	</body>
 </html>
