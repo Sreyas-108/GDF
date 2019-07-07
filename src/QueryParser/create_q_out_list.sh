@@ -8,6 +8,7 @@ function createPage
 	echo "<title>" >> $outfile
 	echo "List of Query Results" >> $outfile
 	echo "</title>" >> $outfile
+	echo '<link rel="stylesheet" type="text/css" href="./q_out_list.css">' >> $outfile
 	echo "</head>" >> $outfile
 	echo "<body>" >> $outfile
 	echo "<ul>" >> $outfile
