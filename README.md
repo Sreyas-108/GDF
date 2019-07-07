@@ -7,6 +7,10 @@ Requirements:
 
 - [Node 8+](https://nodejs.org/en/download/package-manager/)
 
+Installation:
+
+`git clone https://github.com/Sreyas-108/GDF.git`
+
 Node dependencies:
 
 `npm install`
