@@ -59,23 +59,26 @@ app.get('/q_out_list.html', (req, res) =>{
 app.get('/render.html', (req, res) =>{
  if(sub!=undefined)
   {
-  	if(type==='Search')
-        	str = './search "<'+sub+','+pred+','+obj+'>" > temp';
-  	if(type==='Create')
-        	str = './create "<'+sub+','+pred+','+obj+'>" > temp';
-  	if(type==='Delete')
-        	str = './delete "<'+sub+','+pred+','+obj+'>" > temp';
-  	//console.log(str);
- 	const stdout1 = execSync(str);
-	const stdout5= execSync('mv ren render.html');
-     	const stdout2 = execSync('bash replaceString.sh');
-	const rend = fs.readFileSync('./render.html');
-	res.statusCode = 200;
-  	res.setHeader('Content-Type', 'text/html');
-  	res.write(rend);
-	const stdout3= execSync('rm temp');
-	const stdout4=execSync('mv render.html ren');
-	res.end();
+	if(type==='Search')
+	{
+  		//if(type==='Search')
+        		str = './search "<'+sub+','+pred+','+obj+'>" > temp';
+  		//if(type==='Create')
+        	//	str = './create "<'+sub+','+pred+','+obj+'>" > temp';
+  		//if(type==='Delete')
+        	//	str = './delete "<'+sub+','+pred+','+obj+'>" > temp';
+  		//console.log(str);
+ 		const stdout1 = execSync(str);
+		const stdout5= execSync('mv ren render.html');
+	     	const stdout2 = execSync('bash replaceString.sh');
+		const rend = fs.readFileSync('./render.html');
+		res.statusCode = 200;
+	  	res.setHeader('Content-Type', 'text/html');
+	  	res.write(rend);
+		const stdout3= execSync('rm temp');
+		const stdout4=execSync('mv render.html ren');
+		res.end();
+	}
   }	 
 });
 
